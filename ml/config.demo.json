@@ -1,0 +1,25 @@
+{
+    "RANDOM_SEED": 42,
+    "TEST_SIZE": 0.2,
+    "THREADS": 4,
+    "RF_TREES": 300,
+    "LGBM_N_ESTIMATORS": 2000,
+    "MLP_HIDDEN": 64,
+    "MLP_EPOCHS": 300,
+    "MLP_PATIENCE": 40,
+    "SVR_ENABLE": true,
+    "RISK_HIGH_MAX": 3.30,
+    "RISK_MED_MAX": 3.50,
+    "GRADE_POINTS": {
+        "A+": 4.0,
+        "A": 3.75,
+        "A-": 3.5,
+        "B+": 3.25,
+        "B": 3.0,
+        "B-": 2.75,
+        "C+": 2.5,
+        "C": 2.25,
+        "D": 2.0,
+        "F": 0.0
+    }
+}

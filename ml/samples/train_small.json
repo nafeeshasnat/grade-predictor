@@ -1,0 +1,4686 @@
+[
+    {
+        "student_id": 240100000,
+        "ssc_gpa": 3.76,
+        "hsc_gpa": 2.54,
+        "gender": "male",
+        "birth_year": 2001,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 78,
+                "Circuits": "B+",
+                "Physics": "A",
+                "Jurisprudence": "A-",
+                "DataStructures": "A",
+                "Networks": "A"
+            },
+            "2": {
+                "attendancePercentage": 82,
+                "Circuits": "A",
+                "DataStructures": "B-",
+                "Contracts": "A",
+                "Accounting": "A",
+                "Statistics": "A"
+            },
+            "3": {
+                "attendancePercentage": 89,
+                "Statistics": "A",
+                "Circuits": "A-",
+                "Accounting": "A+",
+                "Signals": "A+",
+                "Contracts": "C+"
+            },
+            "4": {
+                "attendancePercentage": 83,
+                "Jurisprudence": "A-",
+                "Accounting": "B+",
+                "Physics": "A-",
+                "Statistics": "A-",
+                "Psychology": "B-"
+            },
+            "5": {
+                "attendancePercentage": 79,
+                "AI": "B-",
+                "Circuits": "B+",
+                "DataStructures": "A-",
+                "Programming": "C+",
+                "Sociology": "A"
+            },
+            "6": {
+                "attendancePercentage": 84,
+                "Accounting": "A",
+                "Marketing": "B-",
+                "DataStructures": "C",
+                "Sociology": "A-",
+                "Algorithms": "A-"
+            },
+            "7": {
+                "attendancePercentage": 73,
+                "Algorithms": "A-",
+                "Psychology": "A-",
+                "Circuits": "B",
+                "Signals": "C",
+                "Jurisprudence": "A-"
+            },
+            "8": {
+                "attendancePercentage": 77,
+                "Contracts": "A+",
+                "Thermodynamics": "B",
+                "Algorithms": "B+",
+                "AI": "B+",
+                "Psychology": "A"
+            },
+            "9": {
+                "attendancePercentage": 91,
+                "Psychology": "C+",
+                "Chemistry": "B",
+                "Algorithms": "D",
+                "Networks": "A-",
+                "Contracts": "A-"
+            },
+            "10": {
+                "attendancePercentage": 82,
+                "Statistics": "A",
+                "Contracts": "B+",
+                "Programming": "B+",
+                "Jurisprudence": "B+",
+                "Physics": "B"
+            },
+            "11": {
+                "attendancePercentage": 70,
+                "Psychology": "B",
+                "DataStructures": "A",
+                "Contracts": "B+",
+                "Jurisprudence": "A-",
+                "Statistics": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100001,
+        "ssc_gpa": 4.27,
+        "hsc_gpa": 3.56,
+        "gender": "female",
+        "birth_year": 2004,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 86,
+                "AI": "A+",
+                "Networks": "A+",
+                "Psychology": "A-",
+                "Math": "B+",
+                "Programming": "A-"
+            },
+            "2": {
+                "attendancePercentage": 79,
+                "Statistics": "A",
+                "Programming": "B-",
+                "English": "B+",
+                "Algorithms": "C+",
+                "Psychology": "A+"
+            },
+            "3": {
+                "attendancePercentage": 74,
+                "AI": "A",
+                "Economics": "A",
+                "Jurisprudence": "B",
+                "Networks": "D",
+                "Programming": "A"
+            },
+            "4": {
+                "attendancePercentage": 91,
+                "Sociology": "D",
+                "Jurisprudence": "C+",
+                "Contracts": "A-",
+                "Economics": "B",
+                "Marketing": "B"
+            },
+            "5": {
+                "attendancePercentage": 89,
+                "Thermodynamics": "A",
+                "Economics": "B",
+                "Chemistry": "B",
+                "Jurisprudence": "A+",
+                "Statistics": "B+"
+            },
+            "6": {
+                "attendancePercentage": 71,
+                "Contracts": "A+",
+                "English": "A",
+                "Sociology": "A",
+                "Psychology": "A+",
+                "Marketing": "B"
+            },
+            "7": {
+                "attendancePercentage": 82,
+                "Psychology": "A-",
+                "AI": "A",
+                "Networks": "B",
+                "Chemistry": "A-",
+                "Circuits": "A-"
+            },
+            "8": {
+                "attendancePercentage": 95,
+                "AI": "B-",
+                "Chemistry": "C",
+                "English": "A+",
+                "Math": "B+",
+                "Signals": "A-"
+            },
+            "9": {
+                "attendancePercentage": 90,
+                "Algorithms": "A",
+                "English": "B-",
+                "Programming": "B",
+                "Physics": "A",
+                "Accounting": "A+"
+            },
+            "10": {
+                "attendancePercentage": 88,
+                "AI": "B-",
+                "Math": "D",
+                "Thermodynamics": "A+",
+                "Economics": "B+",
+                "Signals": "A-"
+            },
+            "11": {
+                "attendancePercentage": 88,
+                "Physics": "A+",
+                "AI": "C",
+                "Networks": "B+",
+                "Statistics": "B-",
+                "Circuits": "C+"
+            },
+            "12": {
+                "attendancePercentage": 82,
+                "Circuits": "A",
+                "Algorithms": "B",
+                "Math": "B-",
+                "Sociology": "A+",
+                "Networks": "B-"
+            },
+            "13": {
+                "attendancePercentage": 72,
+                "Psychology": "A-",
+                "Contracts": "B+",
+                "AI": "A",
+                "Algorithms": "A+",
+                "Circuits": "C+"
+            }
+        }
+    },
+    {
+        "student_id": 240100002,
+        "ssc_gpa": 3.83,
+        "hsc_gpa": 3.47,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 90,
+                "Circuits": "A+",
+                "Statistics": "C",
+                "Thermodynamics": "A+",
+                "Physics": "A-",
+                "Sociology": "A-"
+            },
+            "2": {
+                "attendancePercentage": 75,
+                "Circuits": "A-",
+                "Algorithms": "C",
+                "English": "A+",
+                "Physics": "A",
+                "Thermodynamics": "B+"
+            },
+            "3": {
+                "attendancePercentage": 89,
+                "Contracts": "B",
+                "Signals": "A+",
+                "Physics": "B",
+                "Algorithms": "A",
+                "Sociology": "A+"
+            },
+            "4": {
+                "attendancePercentage": 88,
+                "Thermodynamics": "B+",
+                "Programming": "A+",
+                "Accounting": "B+",
+                "AI": "B+",
+                "Jurisprudence": "D"
+            },
+            "5": {
+                "attendancePercentage": 93,
+                "Sociology": "B+",
+                "Psychology": "B+",
+                "Accounting": "A-",
+                "English": "B-",
+                "Math": "A+"
+            },
+            "6": {
+                "attendancePercentage": 91,
+                "Psychology": "A",
+                "Programming": "B+",
+                "Thermodynamics": "B+",
+                "Economics": "A+",
+                "English": "B+"
+            },
+            "7": {
+                "attendancePercentage": 81,
+                "Thermodynamics": "A+",
+                "Physics": "C+",
+                "Math": "B+",
+                "Jurisprudence": "B+",
+                "Signals": "A+"
+            },
+            "8": {
+                "attendancePercentage": 75,
+                "Economics": "B-",
+                "DataStructures": "B+",
+                "English": "B",
+                "Networks": "D",
+                "Accounting": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100003,
+        "ssc_gpa": 3.91,
+        "hsc_gpa": 3.99,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 87,
+                "Programming": "A+",
+                "Thermodynamics": "A+",
+                "Chemistry": "A+",
+                "Math": "B",
+                "Jurisprudence": "D"
+            },
+            "2": {
+                "attendancePercentage": 96,
+                "Thermodynamics": "B+",
+                "AI": "A-",
+                "Contracts": "C+",
+                "Statistics": "A-",
+                "Signals": "A+"
+            },
+            "3": {
+                "attendancePercentage": 87,
+                "Chemistry": "A+",
+                "DataStructures": "B+",
+                "Marketing": "A-",
+                "Statistics": "B+",
+                "Algorithms": "A"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Programming": "A",
+                "Statistics": "A+",
+                "Networks": "A+",
+                "English": "A-",
+                "Signals": "A+"
+            },
+            "5": {
+                "attendancePercentage": 97,
+                "DataStructures": "A+",
+                "Physics": "A+",
+                "AI": "C",
+                "Statistics": "A",
+                "Economics": "C+"
+            },
+            "6": {
+                "attendancePercentage": 93,
+                "Math": "A+",
+                "Circuits": "A+",
+                "Sociology": "B-",
+                "Programming": "B-",
+                "Psychology": "A+"
+            },
+            "7": {
+                "attendancePercentage": 89,
+                "DataStructures": "A",
+                "Contracts": "A",
+                "Algorithms": "C+",
+                "Signals": "A+",
+                "Psychology": "A"
+            },
+            "8": {
+                "attendancePercentage": 87,
+                "Psychology": "A+",
+                "Sociology": "A-",
+                "Circuits": "A",
+                "Thermodynamics": "B+",
+                "DataStructures": "D"
+            },
+            "9": {
+                "attendancePercentage": 99,
+                "Signals": "A-",
+                "Sociology": "A+",
+                "AI": "C",
+                "Physics": "A+",
+                "Thermodynamics": "A"
+            },
+            "10": {
+                "attendancePercentage": 94,
+                "Math": "B",
+                "Circuits": "B",
+                "Jurisprudence": "C+",
+                "Accounting": "B+",
+                "Psychology": "A+"
+            },
+            "11": {
+                "attendancePercentage": 98,
+                "Contracts": "A-",
+                "Jurisprudence": "B+",
+                "English": "C",
+                "Algorithms": "A+",
+                "DataStructures": "C"
+            },
+            "12": {
+                "attendancePercentage": 97,
+                "DataStructures": "A-",
+                "Thermodynamics": "A-",
+                "Economics": "A-",
+                "Sociology": "B+",
+                "Psychology": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100004,
+        "ssc_gpa": 4.9,
+        "hsc_gpa": 4.97,
+        "gender": "female",
+        "birth_year": 2004,
+        "department": "ECE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 92,
+                "Economics": "A-",
+                "Math": "A-",
+                "Contracts": "A+",
+                "Algorithms": "A",
+                "Sociology": "A+"
+            },
+            "2": {
+                "attendancePercentage": 76,
+                "Psychology": "A",
+                "Jurisprudence": "A",
+                "Circuits": "A",
+                "Signals": "A-",
+                "Math": "A+"
+            },
+            "3": {
+                "attendancePercentage": 75,
+                "English": "B+",
+                "Contracts": "A-",
+                "Algorithms": "B",
+                "Programming": "C+",
+                "Jurisprudence": "A+"
+            },
+            "4": {
+                "attendancePercentage": 78,
+                "Statistics": "D",
+                "Chemistry": "A+",
+                "Math": "A",
+                "Sociology": "B",
+                "Marketing": "B-"
+            },
+            "5": {
+                "attendancePercentage": 83,
+                "Psychology": "A-",
+                "Accounting": "B-",
+                "Thermodynamics": "A",
+                "Math": "A+",
+                "Contracts": "A"
+            },
+            "6": {
+                "attendancePercentage": 79,
+                "Contracts": "B+",
+                "Algorithms": "B+",
+                "Accounting": "B+",
+                "Psychology": "A",
+                "Sociology": "B+"
+            },
+            "7": {
+                "attendancePercentage": 83,
+                "Math": "A-",
+                "Sociology": "A",
+                "Statistics": "B",
+                "Circuits": "C+",
+                "Contracts": "A-"
+            },
+            "8": {
+                "attendancePercentage": 74,
+                "Statistics": "A",
+                "AI": "A",
+                "Physics": "B+",
+                "Networks": "A-",
+                "Algorithms": "B-"
+            },
+            "9": {
+                "attendancePercentage": 78,
+                "Physics": "D",
+                "Sociology": "A",
+                "Accounting": "B",
+                "Networks": "A+",
+                "Math": "A-"
+            },
+            "10": {
+                "attendancePercentage": 69,
+                "Marketing": "B+",
+                "Math": "A-",
+                "DataStructures": "A-",
+                "Networks": "A-",
+                "Physics": "B+"
+            },
+            "11": {
+                "attendancePercentage": 69,
+                "Psychology": "B+",
+                "English": "B+",
+                "Circuits": "A",
+                "Signals": "A-",
+                "Jurisprudence": "D"
+            },
+            "12": {
+                "attendancePercentage": 89,
+                "Circuits": "B-",
+                "Psychology": "A+",
+                "Jurisprudence": "B-",
+                "AI": "A",
+                "Networks": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100005,
+        "ssc_gpa": 3.06,
+        "hsc_gpa": 4.39,
+        "gender": "male",
+        "birth_year": 2002,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 65,
+                "Algorithms": "D",
+                "Psychology": "B+",
+                "Circuits": "B",
+                "Thermodynamics": "A+",
+                "Programming": "B"
+            },
+            "2": {
+                "attendancePercentage": 77,
+                "Physics": "A",
+                "Statistics": "D",
+                "Marketing": "C+",
+                "Psychology": "A-",
+                "Chemistry": "A+"
+            },
+            "3": {
+                "attendancePercentage": 89,
+                "Algorithms": "B",
+                "Networks": "B+",
+                "Contracts": "D",
+                "Thermodynamics": "B+",
+                "Economics": "A+"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Circuits": "A",
+                "Psychology": "A",
+                "DataStructures": "A",
+                "Economics": "A",
+                "Physics": "B+"
+            },
+            "5": {
+                "attendancePercentage": 88,
+                "Statistics": "B+",
+                "Math": "B+",
+                "Sociology": "A+",
+                "Accounting": "A+",
+                "Signals": "A"
+            },
+            "6": {
+                "attendancePercentage": 75,
+                "Psychology": "C+",
+                "Accounting": "C+",
+                "Thermodynamics": "B+",
+                "Statistics": "C",
+                "Contracts": "A"
+            },
+            "7": {
+                "attendancePercentage": 81,
+                "Chemistry": "A+",
+                "Marketing": "A-",
+                "Accounting": "B",
+                "AI": "A",
+                "Signals": "A+"
+            },
+            "8": {
+                "attendancePercentage": 89,
+                "DataStructures": "A+",
+                "Chemistry": "A",
+                "Math": "A+",
+                "Contracts": "B",
+                "Programming": "A-"
+            },
+            "9": {
+                "attendancePercentage": 94,
+                "Psychology": "A",
+                "Contracts": "A-",
+                "Chemistry": "A+",
+                "Algorithms": "A-",
+                "Statistics": "A"
+            },
+            "10": {
+                "attendancePercentage": 75,
+                "Sociology": "B+",
+                "Physics": "A-",
+                "AI": "A",
+                "Statistics": "C+",
+                "Contracts": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100006,
+        "ssc_gpa": 3.88,
+        "hsc_gpa": 4.36,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 69,
+                "English": "B+",
+                "Circuits": "A-",
+                "Statistics": "A-",
+                "Programming": "A+",
+                "Marketing": "A-"
+            },
+            "2": {
+                "attendancePercentage": 72,
+                "Networks": "A-",
+                "Algorithms": "A-",
+                "Math": "A",
+                "Contracts": "A",
+                "Circuits": "C"
+            },
+            "3": {
+                "attendancePercentage": 73,
+                "Physics": "C+",
+                "Networks": "A",
+                "Algorithms": "C+",
+                "DataStructures": "B",
+                "AI": "B+"
+            },
+            "4": {
+                "attendancePercentage": 69,
+                "Economics": "A-",
+                "Circuits": "A-",
+                "Chemistry": "A-",
+                "Statistics": "C+",
+                "Accounting": "A-"
+            },
+            "5": {
+                "attendancePercentage": 74,
+                "Physics": "B-",
+                "Sociology": "B+",
+                "Jurisprudence": "B+",
+                "Signals": "A-",
+                "Contracts": "B+"
+            },
+            "6": {
+                "attendancePercentage": 61,
+                "Math": "B+",
+                "Circuits": "B+",
+                "Marketing": "A-",
+                "Psychology": "D",
+                "Algorithms": "B+"
+            },
+            "7": {
+                "attendancePercentage": 67,
+                "Marketing": "A-",
+                "Jurisprudence": "A-",
+                "Accounting": "A-",
+                "Algorithms": "A-",
+                "Sociology": "A+"
+            },
+            "8": {
+                "attendancePercentage": 60,
+                "AI": "B+",
+                "Programming": "A-",
+                "Algorithms": "A",
+                "Signals": "B+",
+                "Math": "C"
+            },
+            "9": {
+                "attendancePercentage": 70,
+                "Math": "C+",
+                "Statistics": "A",
+                "English": "A+",
+                "Sociology": "B",
+                "Algorithms": "B+"
+            },
+            "10": {
+                "attendancePercentage": 63,
+                "AI": "A",
+                "English": "B+",
+                "Physics": "B-",
+                "Thermodynamics": "D",
+                "Algorithms": "A-"
+            },
+            "11": {
+                "attendancePercentage": 64,
+                "Networks": "A-",
+                "AI": "B+",
+                "Math": "A+",
+                "Statistics": "A-",
+                "Algorithms": "C+"
+            },
+            "12": {
+                "attendancePercentage": 68,
+                "Statistics": "A-",
+                "Accounting": "B+",
+                "Circuits": "B+",
+                "Physics": "A-",
+                "Math": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100007,
+        "ssc_gpa": 3.09,
+        "hsc_gpa": 3.11,
+        "gender": "male",
+        "birth_year": 1999,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 83,
+                "Networks": "B",
+                "AI": "B-",
+                "Economics": "A",
+                "Circuits": "A+",
+                "Math": "A"
+            },
+            "2": {
+                "attendancePercentage": 79,
+                "DataStructures": "A+",
+                "Psychology": "A-",
+                "Chemistry": "A-",
+                "English": "C",
+                "Algorithms": "A"
+            },
+            "3": {
+                "attendancePercentage": 85,
+                "Circuits": "B",
+                "Chemistry": "A-",
+                "AI": "B",
+                "Networks": "A+",
+                "Jurisprudence": "A"
+            },
+            "4": {
+                "attendancePercentage": 71,
+                "Algorithms": "A",
+                "DataStructures": "C+",
+                "Physics": "B+",
+                "Accounting": "C",
+                "Jurisprudence": "B"
+            },
+            "5": {
+                "attendancePercentage": 71,
+                "Circuits": "A",
+                "Signals": "C",
+                "Sociology": "C+",
+                "English": "C",
+                "Thermodynamics": "B+"
+            },
+            "6": {
+                "attendancePercentage": 78,
+                "Thermodynamics": "C",
+                "Statistics": "A+",
+                "Circuits": "B+",
+                "Marketing": "A-",
+                "Physics": "B+"
+            },
+            "7": {
+                "attendancePercentage": 71,
+                "Psychology": "B+",
+                "Programming": "C+",
+                "Circuits": "B+",
+                "Accounting": "B+",
+                "Signals": "A"
+            },
+            "8": {
+                "attendancePercentage": 71,
+                "Circuits": "B",
+                "Physics": "C",
+                "DataStructures": "B-",
+                "Math": "D",
+                "Marketing": "B+"
+            }
+        }
+    },
+    {
+        "student_id": 240100008,
+        "ssc_gpa": 2.64,
+        "hsc_gpa": 3.25,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 91,
+                "Signals": "B+",
+                "Math": "A-",
+                "DataStructures": "C+",
+                "English": "A-",
+                "Economics": "A"
+            },
+            "2": {
+                "attendancePercentage": 81,
+                "Programming": "C",
+                "Contracts": "C",
+                "DataStructures": "B-",
+                "Accounting": "C+",
+                "Thermodynamics": "A"
+            },
+            "3": {
+                "attendancePercentage": 87,
+                "Chemistry": "A",
+                "Accounting": "B+",
+                "Thermodynamics": "A",
+                "Economics": "B+",
+                "Algorithms": "C"
+            },
+            "4": {
+                "attendancePercentage": 71,
+                "Networks": "D",
+                "Physics": "B+",
+                "Chemistry": "A",
+                "Math": "A-",
+                "Jurisprudence": "C"
+            },
+            "5": {
+                "attendancePercentage": 77,
+                "Math": "B",
+                "Statistics": "B+",
+                "Programming": "A-",
+                "Economics": "A-",
+                "Chemistry": "A"
+            },
+            "6": {
+                "attendancePercentage": 94,
+                "Programming": "C+",
+                "English": "D",
+                "Accounting": "B+",
+                "Statistics": "C",
+                "Contracts": "A"
+            },
+            "7": {
+                "attendancePercentage": 74,
+                "DataStructures": "B+",
+                "Jurisprudence": "B-",
+                "Marketing": "B-",
+                "Networks": "A-",
+                "Circuits": "A+"
+            },
+            "8": {
+                "attendancePercentage": 74,
+                "AI": "B",
+                "Sociology": "B-",
+                "Statistics": "C+",
+                "Thermodynamics": "B+",
+                "Economics": "C+"
+            },
+            "9": {
+                "attendancePercentage": 85,
+                "Programming": "B+",
+                "DataStructures": "A",
+                "Sociology": "A+",
+                "Accounting": "B+",
+                "Marketing": "B"
+            },
+            "10": {
+                "attendancePercentage": 77,
+                "Physics": "A",
+                "Programming": "B-",
+                "DataStructures": "A+",
+                "Jurisprudence": "B+",
+                "English": "B"
+            },
+            "11": {
+                "attendancePercentage": 71,
+                "Jurisprudence": "C+",
+                "Math": "C",
+                "Economics": "B",
+                "Algorithms": "B+",
+                "Statistics": "B"
+            },
+            "12": {
+                "attendancePercentage": 72,
+                "Sociology": "A+",
+                "Circuits": "A-",
+                "Physics": "B-",
+                "DataStructures": "C+",
+                "Economics": "D"
+            },
+            "13": {
+                "attendancePercentage": 82,
+                "Signals": "B+",
+                "Statistics": "B",
+                "Accounting": "B",
+                "Networks": "B",
+                "Thermodynamics": "D"
+            }
+        }
+    },
+    {
+        "student_id": 240100009,
+        "ssc_gpa": 4.27,
+        "hsc_gpa": 3.71,
+        "gender": "male",
+        "birth_year": 2004,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 92,
+                "Programming": "B",
+                "Statistics": "A+",
+                "Algorithms": "A-",
+                "Economics": "A+",
+                "Circuits": "B+"
+            },
+            "2": {
+                "attendancePercentage": 94,
+                "Accounting": "B-",
+                "DataStructures": "A+",
+                "Contracts": "D",
+                "Chemistry": "A+",
+                "Networks": "D"
+            },
+            "3": {
+                "attendancePercentage": 92,
+                "Chemistry": "A+",
+                "Contracts": "A+",
+                "Physics": "B",
+                "Programming": "A+",
+                "Sociology": "A-"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Chemistry": "B-",
+                "AI": "B",
+                "Economics": "B-",
+                "Programming": "A+",
+                "Statistics": "B-"
+            },
+            "5": {
+                "attendancePercentage": 86,
+                "Sociology": "C",
+                "Marketing": "A-",
+                "Signals": "C+",
+                "Economics": "B+",
+                "Networks": "A"
+            },
+            "6": {
+                "attendancePercentage": 91,
+                "Contracts": "A+",
+                "Math": "A",
+                "Circuits": "A",
+                "AI": "A-",
+                "Marketing": "A+"
+            },
+            "7": {
+                "attendancePercentage": 93,
+                "Algorithms": "A+",
+                "Circuits": "D",
+                "DataStructures": "A",
+                "Programming": "A+",
+                "Chemistry": "A+"
+            },
+            "8": {
+                "attendancePercentage": 91,
+                "Jurisprudence": "A-",
+                "Thermodynamics": "A+",
+                "Sociology": "C",
+                "Chemistry": "A+",
+                "Marketing": "B-"
+            },
+            "9": {
+                "attendancePercentage": 96,
+                "Math": "C",
+                "English": "B+",
+                "Accounting": "A+",
+                "AI": "B+",
+                "Statistics": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100010,
+        "ssc_gpa": 4.82,
+        "hsc_gpa": 2.97,
+        "gender": "male",
+        "birth_year": 2004,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 68,
+                "Chemistry": "A-",
+                "AI": "C+",
+                "Statistics": "A-",
+                "Thermodynamics": "C+",
+                "Signals": "C"
+            },
+            "2": {
+                "attendancePercentage": 63,
+                "Physics": "A-",
+                "Circuits": "A-",
+                "Signals": "B",
+                "Math": "B+",
+                "Programming": "B"
+            },
+            "3": {
+                "attendancePercentage": 73,
+                "Thermodynamics": "B+",
+                "Chemistry": "A-",
+                "Marketing": "B+",
+                "Programming": "A",
+                "DataStructures": "B+"
+            },
+            "4": {
+                "attendancePercentage": 68,
+                "Jurisprudence": "A-",
+                "Networks": "A-",
+                "Signals": "B+",
+                "Economics": "B-",
+                "Thermodynamics": "B+"
+            },
+            "5": {
+                "attendancePercentage": 62,
+                "AI": "B",
+                "Physics": "A",
+                "Math": "B+",
+                "Sociology": "B+",
+                "Psychology": "B-"
+            },
+            "6": {
+                "attendancePercentage": 68,
+                "Physics": "C",
+                "AI": "B",
+                "Circuits": "A",
+                "Contracts": "A-",
+                "Statistics": "D"
+            },
+            "7": {
+                "attendancePercentage": 75,
+                "Algorithms": "A+",
+                "Economics": "A-",
+                "Sociology": "A-",
+                "DataStructures": "B-",
+                "Chemistry": "B+"
+            },
+            "8": {
+                "attendancePercentage": 66,
+                "Algorithms": "A+",
+                "Programming": "A-",
+                "Statistics": "B",
+                "Physics": "A-",
+                "Marketing": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100011,
+        "ssc_gpa": 4.04,
+        "hsc_gpa": 3.27,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 89,
+                "Jurisprudence": "A",
+                "Chemistry": "C+",
+                "AI": "B",
+                "Sociology": "B+",
+                "Circuits": "A"
+            },
+            "2": {
+                "attendancePercentage": 80,
+                "Physics": "A",
+                "Economics": "A",
+                "Thermodynamics": "B+",
+                "Networks": "A",
+                "Programming": "A"
+            },
+            "3": {
+                "attendancePercentage": 66,
+                "Contracts": "B",
+                "Jurisprudence": "C",
+                "Math": "A-",
+                "Chemistry": "A-",
+                "Marketing": "B"
+            },
+            "4": {
+                "attendancePercentage": 94,
+                "Sociology": "A",
+                "AI": "B+",
+                "Physics": "B",
+                "Networks": "B+",
+                "Economics": "A"
+            },
+            "5": {
+                "attendancePercentage": 90,
+                "Algorithms": "B-",
+                "Sociology": "B-",
+                "Chemistry": "B+",
+                "Statistics": "A-",
+                "Programming": "A-"
+            },
+            "6": {
+                "attendancePercentage": 66,
+                "Physics": "D",
+                "Jurisprudence": "B-",
+                "Signals": "B",
+                "Marketing": "B-",
+                "Contracts": "B-"
+            },
+            "7": {
+                "attendancePercentage": 94,
+                "Statistics": "A-",
+                "Algorithms": "C+",
+                "Signals": "A+",
+                "Psychology": "B",
+                "Contracts": "B"
+            },
+            "8": {
+                "attendancePercentage": 79,
+                "Statistics": "A",
+                "DataStructures": "A-",
+                "AI": "A",
+                "Networks": "A",
+                "Math": "A"
+            },
+            "9": {
+                "attendancePercentage": 88,
+                "Chemistry": "B+",
+                "Thermodynamics": "A+",
+                "Programming": "A+",
+                "Contracts": "A+",
+                "Algorithms": "B"
+            },
+            "10": {
+                "attendancePercentage": 84,
+                "Algorithms": "A+",
+                "Accounting": "A-",
+                "Thermodynamics": "A-",
+                "Signals": "A+",
+                "Chemistry": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100012,
+        "ssc_gpa": 3.09,
+        "hsc_gpa": 4.64,
+        "gender": "female",
+        "birth_year": 1998,
+        "department": "ECE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 82,
+                "Jurisprudence": "C+",
+                "AI": "A-",
+                "Signals": "A",
+                "Psychology": "A",
+                "Statistics": "D"
+            },
+            "2": {
+                "attendancePercentage": 80,
+                "English": "A-",
+                "DataStructures": "C",
+                "Chemistry": "D",
+                "Networks": "B+",
+                "Signals": "A"
+            },
+            "3": {
+                "attendancePercentage": 72,
+                "Chemistry": "A-",
+                "Jurisprudence": "C+",
+                "Psychology": "A-",
+                "Accounting": "A-",
+                "Algorithms": "A-"
+            },
+            "4": {
+                "attendancePercentage": 87,
+                "Thermodynamics": "A+",
+                "Marketing": "C+",
+                "DataStructures": "A",
+                "Contracts": "B+",
+                "English": "A-"
+            },
+            "5": {
+                "attendancePercentage": 84,
+                "Chemistry": "A-",
+                "Math": "B+",
+                "Thermodynamics": "A+",
+                "Jurisprudence": "B+",
+                "Networks": "A-"
+            },
+            "6": {
+                "attendancePercentage": 75,
+                "Signals": "B+",
+                "Contracts": "B",
+                "Programming": "B+",
+                "Psychology": "B-",
+                "Math": "B+"
+            },
+            "7": {
+                "attendancePercentage": 90,
+                "Physics": "B+",
+                "Accounting": "A",
+                "Sociology": "A-",
+                "Chemistry": "C+",
+                "Contracts": "A"
+            },
+            "8": {
+                "attendancePercentage": 94,
+                "Psychology": "A",
+                "Marketing": "A",
+                "Networks": "C+",
+                "English": "A",
+                "Algorithms": "A-"
+            },
+            "9": {
+                "attendancePercentage": 78,
+                "Accounting": "A+",
+                "Circuits": "B+",
+                "Networks": "B+",
+                "Chemistry": "C+",
+                "Contracts": "B+"
+            },
+            "10": {
+                "attendancePercentage": 73,
+                "Chemistry": "B-",
+                "Economics": "A-",
+                "Circuits": "B-",
+                "English": "A",
+                "Jurisprudence": "C+"
+            },
+            "11": {
+                "attendancePercentage": 76,
+                "Economics": "A-",
+                "Thermodynamics": "B+",
+                "Math": "B-",
+                "Statistics": "B+",
+                "Algorithms": "B-"
+            },
+            "12": {
+                "attendancePercentage": 94,
+                "Physics": "B+",
+                "Chemistry": "C",
+                "Sociology": "B+",
+                "Math": "B",
+                "Jurisprudence": "C"
+            },
+            "13": {
+                "attendancePercentage": 82,
+                "Psychology": "C+",
+                "Statistics": "A+",
+                "AI": "A",
+                "Chemistry": "A",
+                "Marketing": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100013,
+        "ssc_gpa": 4.49,
+        "hsc_gpa": 3.83,
+        "gender": "female",
+        "birth_year": 1998,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 90,
+                "Networks": "B+",
+                "Thermodynamics": "A+",
+                "Programming": "A+",
+                "Psychology": "B",
+                "Signals": "A+"
+            },
+            "2": {
+                "attendancePercentage": 74,
+                "Signals": "A+",
+                "AI": "B+",
+                "Chemistry": "B+",
+                "Accounting": "A",
+                "Programming": "D"
+            },
+            "3": {
+                "attendancePercentage": 95,
+                "Psychology": "D",
+                "Math": "A-",
+                "Networks": "A",
+                "Accounting": "D",
+                "Sociology": "A"
+            },
+            "4": {
+                "attendancePercentage": 78,
+                "Thermodynamics": "A-",
+                "Contracts": "A",
+                "Physics": "A-",
+                "Psychology": "A-",
+                "AI": "B+"
+            },
+            "5": {
+                "attendancePercentage": 83,
+                "Thermodynamics": "B+",
+                "Jurisprudence": "A",
+                "Psychology": "B-",
+                "Statistics": "A-",
+                "Contracts": "B-"
+            },
+            "6": {
+                "attendancePercentage": 89,
+                "Accounting": "B+",
+                "Jurisprudence": "B-",
+                "Programming": "A+",
+                "AI": "A+",
+                "Contracts": "B"
+            },
+            "7": {
+                "attendancePercentage": 75,
+                "Chemistry": "B-",
+                "English": "B+",
+                "Accounting": "A-",
+                "Psychology": "A-",
+                "Economics": "A-"
+            },
+            "8": {
+                "attendancePercentage": 76,
+                "Signals": "A",
+                "Marketing": "A+",
+                "Thermodynamics": "A-",
+                "Programming": "A",
+                "Math": "A"
+            },
+            "9": {
+                "attendancePercentage": 75,
+                "Circuits": "A-",
+                "Contracts": "B",
+                "Physics": "A-",
+                "Algorithms": "A-",
+                "English": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100014,
+        "ssc_gpa": 2.63,
+        "hsc_gpa": 4.61,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 96,
+                "Thermodynamics": "D",
+                "Marketing": "A-",
+                "Circuits": "A",
+                "Programming": "A",
+                "Physics": "B"
+            },
+            "2": {
+                "attendancePercentage": 98,
+                "DataStructures": "A",
+                "Psychology": "A",
+                "Networks": "A",
+                "Signals": "A+",
+                "Contracts": "B+"
+            },
+            "3": {
+                "attendancePercentage": 88,
+                "Contracts": "C+",
+                "Economics": "A",
+                "Marketing": "C+",
+                "Thermodynamics": "A+",
+                "Psychology": "C"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Signals": "C",
+                "Algorithms": "B+",
+                "Circuits": "B-",
+                "English": "A",
+                "Programming": "A"
+            },
+            "5": {
+                "attendancePercentage": 94,
+                "Circuits": "A+",
+                "Economics": "C",
+                "Algorithms": "C+",
+                "Psychology": "A+",
+                "Physics": "A-"
+            },
+            "6": {
+                "attendancePercentage": 92,
+                "Circuits": "A",
+                "English": "B+",
+                "Math": "A",
+                "Thermodynamics": "C+",
+                "Psychology": "B-"
+            },
+            "7": {
+                "attendancePercentage": 87,
+                "Physics": "B+",
+                "Signals": "A",
+                "Algorithms": "A+",
+                "Marketing": "A+",
+                "AI": "B"
+            },
+            "8": {
+                "attendancePercentage": 85,
+                "Sociology": "A+",
+                "Marketing": "B+",
+                "Algorithms": "B",
+                "DataStructures": "A",
+                "Circuits": "A-"
+            },
+            "9": {
+                "attendancePercentage": 90,
+                "Networks": "A+",
+                "Algorithms": "A-",
+                "Circuits": "A+",
+                "English": "B+",
+                "Psychology": "A"
+            },
+            "10": {
+                "attendancePercentage": 91,
+                "Thermodynamics": "A+",
+                "AI": "A",
+                "Signals": "B-",
+                "Chemistry": "B+",
+                "Networks": "B+"
+            }
+        }
+    },
+    {
+        "student_id": 240100015,
+        "ssc_gpa": 2.72,
+        "hsc_gpa": 4.18,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 70,
+                "Programming": "C+",
+                "Chemistry": "C+",
+                "Networks": "A-",
+                "Circuits": "B+",
+                "Economics": "D"
+            },
+            "2": {
+                "attendancePercentage": 60,
+                "Jurisprudence": "A-",
+                "Marketing": "C+",
+                "Programming": "B+",
+                "Contracts": "B+",
+                "Algorithms": "B-"
+            },
+            "3": {
+                "attendancePercentage": 71,
+                "Statistics": "A",
+                "Economics": "B",
+                "Math": "A-",
+                "Jurisprudence": "C+",
+                "Algorithms": "A-"
+            },
+            "4": {
+                "attendancePercentage": 67,
+                "Marketing": "A",
+                "Jurisprudence": "C",
+                "Statistics": "A-",
+                "Circuits": "B",
+                "Signals": "A+"
+            },
+            "5": {
+                "attendancePercentage": 68,
+                "Economics": "A",
+                "Physics": "A-",
+                "DataStructures": "B+",
+                "Statistics": "A+",
+                "Contracts": "B-"
+            },
+            "6": {
+                "attendancePercentage": 63,
+                "Statistics": "C",
+                "Physics": "B+",
+                "DataStructures": "A-",
+                "Math": "B-",
+                "Accounting": "A-"
+            },
+            "7": {
+                "attendancePercentage": 67,
+                "Sociology": "A+",
+                "Math": "B+",
+                "Chemistry": "B-",
+                "Marketing": "B+",
+                "Accounting": "A-"
+            },
+            "8": {
+                "attendancePercentage": 63,
+                "Programming": "A-",
+                "Physics": "A",
+                "English": "A",
+                "Signals": "A-",
+                "AI": "A-"
+            },
+            "9": {
+                "attendancePercentage": 62,
+                "Contracts": "B+",
+                "Chemistry": "B+",
+                "DataStructures": "A-",
+                "Marketing": "D",
+                "Physics": "B+"
+            }
+        }
+    },
+    {
+        "student_id": 240100016,
+        "ssc_gpa": 2.72,
+        "hsc_gpa": 4.15,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 85,
+                "DataStructures": "C+",
+                "Networks": "C",
+                "English": "A-",
+                "Jurisprudence": "B-",
+                "Chemistry": "A"
+            },
+            "2": {
+                "attendancePercentage": 85,
+                "Sociology": "A+",
+                "Statistics": "C",
+                "Jurisprudence": "B+",
+                "Algorithms": "A",
+                "Psychology": "A+"
+            },
+            "3": {
+                "attendancePercentage": 77,
+                "Statistics": "B+",
+                "Accounting": "A+",
+                "Circuits": "D",
+                "Chemistry": "A+",
+                "DataStructures": "A+"
+            },
+            "4": {
+                "attendancePercentage": 77,
+                "Algorithms": "A",
+                "Chemistry": "A+",
+                "Jurisprudence": "A+",
+                "Accounting": "B-",
+                "Thermodynamics": "A"
+            },
+            "5": {
+                "attendancePercentage": 72,
+                "Sociology": "B-",
+                "Contracts": "A+",
+                "Algorithms": "A",
+                "Statistics": "C+",
+                "Programming": "A"
+            },
+            "6": {
+                "attendancePercentage": 93,
+                "Programming": "A-",
+                "Algorithms": "C+",
+                "Sociology": "A+",
+                "English": "C",
+                "Circuits": "C+"
+            },
+            "7": {
+                "attendancePercentage": 86,
+                "DataStructures": "A+",
+                "Sociology": "A+",
+                "Marketing": "A+",
+                "Accounting": "B+",
+                "Thermodynamics": "A+"
+            },
+            "8": {
+                "attendancePercentage": 83,
+                "Circuits": "A-",
+                "Physics": "B+",
+                "Math": "A",
+                "Accounting": "C+",
+                "Programming": "A"
+            },
+            "9": {
+                "attendancePercentage": 71,
+                "Jurisprudence": "A-",
+                "Math": "D",
+                "Programming": "A+",
+                "Signals": "A",
+                "Accounting": "A"
+            },
+            "10": {
+                "attendancePercentage": 84,
+                "Contracts": "A+",
+                "Networks": "A+",
+                "Economics": "A",
+                "Statistics": "B",
+                "Sociology": "A+"
+            },
+            "11": {
+                "attendancePercentage": 70,
+                "Chemistry": "A+",
+                "Accounting": "A-",
+                "Physics": "C+",
+                "DataStructures": "B",
+                "Math": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100017,
+        "ssc_gpa": 4.43,
+        "hsc_gpa": 3.31,
+        "gender": "female",
+        "birth_year": 2001,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 72,
+                "Circuits": "A+",
+                "AI": "A+",
+                "Physics": "C+",
+                "Networks": "A-",
+                "Thermodynamics": "C+"
+            },
+            "2": {
+                "attendancePercentage": 83,
+                "Networks": "A",
+                "Programming": "B",
+                "Contracts": "B-",
+                "Signals": "A-",
+                "Circuits": "A+"
+            },
+            "3": {
+                "attendancePercentage": 72,
+                "Economics": "A+",
+                "Statistics": "A-",
+                "Physics": "A",
+                "Sociology": "A",
+                "Math": "B+"
+            },
+            "4": {
+                "attendancePercentage": 79,
+                "Thermodynamics": "A-",
+                "Physics": "B-",
+                "Math": "A-",
+                "Circuits": "C+",
+                "Networks": "A"
+            },
+            "5": {
+                "attendancePercentage": 75,
+                "Programming": "A+",
+                "Circuits": "B-",
+                "Chemistry": "A+",
+                "Psychology": "D",
+                "Signals": "A+"
+            },
+            "6": {
+                "attendancePercentage": 81,
+                "Contracts": "D",
+                "Algorithms": "A+",
+                "Thermodynamics": "C+",
+                "Marketing": "D",
+                "Statistics": "A-"
+            },
+            "7": {
+                "attendancePercentage": 92,
+                "Programming": "D",
+                "Networks": "A-",
+                "Accounting": "A+",
+                "Sociology": "A",
+                "Economics": "D"
+            },
+            "8": {
+                "attendancePercentage": 75,
+                "English": "A+",
+                "Psychology": "A+",
+                "AI": "A",
+                "Contracts": "A+",
+                "DataStructures": "A"
+            },
+            "9": {
+                "attendancePercentage": 93,
+                "Marketing": "A-",
+                "Jurisprudence": "B+",
+                "English": "A-",
+                "DataStructures": "B+",
+                "Networks": "B"
+            },
+            "10": {
+                "attendancePercentage": 93,
+                "Math": "D",
+                "Algorithms": "B+",
+                "Marketing": "B+",
+                "Physics": "A+",
+                "Thermodynamics": "D"
+            },
+            "11": {
+                "attendancePercentage": 74,
+                "Signals": "C+",
+                "Accounting": "A+",
+                "Statistics": "B-",
+                "Thermodynamics": "A+",
+                "Economics": "D"
+            },
+            "12": {
+                "attendancePercentage": 94,
+                "Jurisprudence": "B-",
+                "Contracts": "B",
+                "DataStructures": "C",
+                "Circuits": "A",
+                "Signals": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100018,
+        "ssc_gpa": 3.04,
+        "hsc_gpa": 3.63,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 89,
+                "English": "B-",
+                "DataStructures": "C+",
+                "Programming": "D",
+                "Sociology": "C",
+                "Jurisprudence": "A+"
+            },
+            "2": {
+                "attendancePercentage": 87,
+                "Accounting": "D",
+                "Thermodynamics": "A+",
+                "Chemistry": "B+",
+                "Math": "A",
+                "Networks": "A"
+            },
+            "3": {
+                "attendancePercentage": 93,
+                "Economics": "A+",
+                "Programming": "A+",
+                "Networks": "A",
+                "Algorithms": "A+",
+                "Jurisprudence": "B+"
+            },
+            "4": {
+                "attendancePercentage": 72,
+                "Accounting": "A",
+                "Networks": "A",
+                "Signals": "B",
+                "Thermodynamics": "B",
+                "Statistics": "A-"
+            },
+            "5": {
+                "attendancePercentage": 77,
+                "Circuits": "B-",
+                "Math": "B+",
+                "Sociology": "A",
+                "Contracts": "D",
+                "Programming": "A"
+            },
+            "6": {
+                "attendancePercentage": 92,
+                "Algorithms": "A+",
+                "Physics": "B-",
+                "Signals": "A-",
+                "Jurisprudence": "C+",
+                "Marketing": "A"
+            },
+            "7": {
+                "attendancePercentage": 84,
+                "Accounting": "A+",
+                "Psychology": "B+",
+                "Sociology": "A-",
+                "DataStructures": "A-",
+                "Thermodynamics": "B"
+            },
+            "8": {
+                "attendancePercentage": 70,
+                "Marketing": "A+",
+                "Math": "A+",
+                "Statistics": "A-",
+                "Signals": "B+",
+                "Jurisprudence": "A-"
+            },
+            "9": {
+                "attendancePercentage": 71,
+                "Economics": "A+",
+                "Physics": "A+",
+                "AI": "A",
+                "DataStructures": "A+",
+                "Math": "C+"
+            },
+            "10": {
+                "attendancePercentage": 83,
+                "DataStructures": "A",
+                "English": "A+",
+                "Thermodynamics": "B+",
+                "Statistics": "A",
+                "Psychology": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100019,
+        "ssc_gpa": 4.39,
+        "hsc_gpa": 4.71,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "ECE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 85,
+                "Programming": "B-",
+                "Sociology": "B+",
+                "Algorithms": "A+",
+                "English": "A",
+                "Chemistry": "A+"
+            },
+            "2": {
+                "attendancePercentage": 77,
+                "Psychology": "B+",
+                "Physics": "C",
+                "Networks": "A+",
+                "Jurisprudence": "A",
+                "Economics": "A+"
+            },
+            "3": {
+                "attendancePercentage": 70,
+                "Psychology": "A",
+                "Accounting": "A",
+                "Jurisprudence": "C+",
+                "AI": "A-",
+                "Chemistry": "A-"
+            },
+            "4": {
+                "attendancePercentage": 76,
+                "Math": "A-",
+                "Chemistry": "A-",
+                "Thermodynamics": "A-",
+                "Marketing": "A",
+                "AI": "A"
+            },
+            "5": {
+                "attendancePercentage": 78,
+                "Economics": "A+",
+                "Algorithms": "A-",
+                "Sociology": "C+",
+                "AI": "B",
+                "Thermodynamics": "B-"
+            },
+            "6": {
+                "attendancePercentage": 94,
+                "DataStructures": "A-",
+                "Marketing": "C",
+                "Accounting": "A",
+                "Circuits": "D",
+                "AI": "B"
+            },
+            "7": {
+                "attendancePercentage": 93,
+                "Jurisprudence": "A+",
+                "Chemistry": "A+",
+                "Contracts": "A+",
+                "Math": "A-",
+                "Circuits": "A"
+            },
+            "8": {
+                "attendancePercentage": 83,
+                "Physics": "A",
+                "Accounting": "B-",
+                "Jurisprudence": "A",
+                "Sociology": "A-",
+                "Math": "A"
+            },
+            "9": {
+                "attendancePercentage": 87,
+                "Accounting": "A+",
+                "Signals": "A+",
+                "Sociology": "A+",
+                "Chemistry": "B+",
+                "Programming": "C"
+            },
+            "10": {
+                "attendancePercentage": 84,
+                "Jurisprudence": "A+",
+                "Signals": "B-",
+                "Physics": "B-",
+                "Chemistry": "A",
+                "DataStructures": "B+"
+            }
+        }
+    },
+    {
+        "student_id": 240100020,
+        "ssc_gpa": 4.93,
+        "hsc_gpa": 3.75,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 78,
+                "Programming": "C+",
+                "Psychology": "A+",
+                "Networks": "A",
+                "Contracts": "D",
+                "Physics": "A+"
+            },
+            "2": {
+                "attendancePercentage": 67,
+                "Algorithms": "B",
+                "DataStructures": "A-",
+                "Accounting": "A",
+                "Circuits": "A+",
+                "Programming": "D"
+            },
+            "3": {
+                "attendancePercentage": 89,
+                "DataStructures": "B+",
+                "Contracts": "C",
+                "Signals": "A",
+                "Programming": "A+",
+                "Jurisprudence": "B"
+            },
+            "4": {
+                "attendancePercentage": 85,
+                "Algorithms": "A-",
+                "Circuits": "A",
+                "English": "A-",
+                "DataStructures": "A-",
+                "Jurisprudence": "A-"
+            },
+            "5": {
+                "attendancePercentage": 83,
+                "Contracts": "A+",
+                "AI": "A",
+                "Psychology": "A+",
+                "Statistics": "A+",
+                "Circuits": "B+"
+            },
+            "6": {
+                "attendancePercentage": 76,
+                "Signals": "B-",
+                "Jurisprudence": "B+",
+                "AI": "A",
+                "Economics": "B",
+                "Psychology": "B-"
+            },
+            "7": {
+                "attendancePercentage": 95,
+                "Accounting": "A+",
+                "Contracts": "A-",
+                "Programming": "B+",
+                "Chemistry": "A+",
+                "Jurisprudence": "C"
+            },
+            "8": {
+                "attendancePercentage": 75,
+                "Physics": "B+",
+                "Jurisprudence": "A-",
+                "DataStructures": "B+",
+                "Programming": "B+",
+                "Circuits": "A+"
+            },
+            "9": {
+                "attendancePercentage": 67,
+                "Programming": "B+",
+                "Accounting": "B+",
+                "Chemistry": "B-",
+                "Physics": "C+",
+                "Psychology": "D"
+            },
+            "10": {
+                "attendancePercentage": 84,
+                "English": "A+",
+                "Psychology": "A",
+                "Physics": "A-",
+                "DataStructures": "A-",
+                "Chemistry": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100021,
+        "ssc_gpa": 2.67,
+        "hsc_gpa": 4.52,
+        "gender": "male",
+        "birth_year": 2000,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 73,
+                "Math": "B+",
+                "Economics": "B+",
+                "Programming": "B",
+                "Psychology": "B+",
+                "DataStructures": "B-"
+            },
+            "2": {
+                "attendancePercentage": 71,
+                "English": "A-",
+                "Jurisprudence": "A-",
+                "Marketing": "A-",
+                "Accounting": "A-",
+                "Algorithms": "B-"
+            },
+            "3": {
+                "attendancePercentage": 72,
+                "Statistics": "B",
+                "Math": "C+",
+                "AI": "A-",
+                "Accounting": "A-",
+                "Jurisprudence": "A"
+            },
+            "4": {
+                "attendancePercentage": 71,
+                "Programming": "A-",
+                "Physics": "B",
+                "Marketing": "B-",
+                "Algorithms": "B+",
+                "Circuits": "B+"
+            },
+            "5": {
+                "attendancePercentage": 76,
+                "Economics": "B",
+                "Algorithms": "B+",
+                "DataStructures": "A-",
+                "Signals": "A-",
+                "Circuits": "A"
+            },
+            "6": {
+                "attendancePercentage": 74,
+                "Algorithms": "B+",
+                "Thermodynamics": "C",
+                "Statistics": "A+",
+                "Programming": "C+",
+                "DataStructures": "B-"
+            },
+            "7": {
+                "attendancePercentage": 86,
+                "Jurisprudence": "A+",
+                "Programming": "B+",
+                "Networks": "A-",
+                "Chemistry": "B+",
+                "Sociology": "A"
+            },
+            "8": {
+                "attendancePercentage": 90,
+                "Sociology": "A-",
+                "Jurisprudence": "A-",
+                "Psychology": "B",
+                "Marketing": "B",
+                "AI": "B+"
+            },
+            "9": {
+                "attendancePercentage": 75,
+                "Psychology": "B",
+                "English": "C",
+                "Jurisprudence": "B-",
+                "Sociology": "B-",
+                "Economics": "B"
+            },
+            "10": {
+                "attendancePercentage": 83,
+                "Statistics": "B+",
+                "Accounting": "B+",
+                "Signals": "B-",
+                "AI": "B+",
+                "Economics": "B+"
+            },
+            "11": {
+                "attendancePercentage": 83,
+                "Networks": "B",
+                "English": "C",
+                "Algorithms": "D",
+                "Psychology": "C+",
+                "Economics": "C+"
+            },
+            "12": {
+                "attendancePercentage": 83,
+                "DataStructures": "B+",
+                "Jurisprudence": "C+",
+                "Math": "A",
+                "Psychology": "C+",
+                "Accounting": "C+"
+            },
+            "13": {
+                "attendancePercentage": 76,
+                "DataStructures": "B",
+                "Math": "B+",
+                "Algorithms": "C",
+                "Contracts": "A-",
+                "Programming": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100022,
+        "ssc_gpa": 3.73,
+        "hsc_gpa": 3.86,
+        "gender": "male",
+        "birth_year": 2000,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 86,
+                "Contracts": "C+",
+                "Thermodynamics": "A+",
+                "Physics": "C",
+                "Sociology": "B+",
+                "Chemistry": "A+"
+            },
+            "2": {
+                "attendancePercentage": 83,
+                "Signals": "A+",
+                "Algorithms": "B",
+                "Programming": "A+",
+                "Networks": "B+",
+                "Sociology": "C+"
+            },
+            "3": {
+                "attendancePercentage": 71,
+                "Accounting": "B-",
+                "Signals": "A-",
+                "Chemistry": "A",
+                "Statistics": "A",
+                "Economics": "A+"
+            },
+            "4": {
+                "attendancePercentage": 89,
+                "Jurisprudence": "A-",
+                "AI": "A",
+                "Networks": "A",
+                "Economics": "A+",
+                "Sociology": "A"
+            },
+            "5": {
+                "attendancePercentage": 77,
+                "Economics": "A+",
+                "Psychology": "A+",
+                "Algorithms": "A+",
+                "Signals": "A",
+                "Chemistry": "B-"
+            },
+            "6": {
+                "attendancePercentage": 94,
+                "Psychology": "A",
+                "Chemistry": "A+",
+                "Physics": "D",
+                "Programming": "A+",
+                "Statistics": "B+"
+            },
+            "7": {
+                "attendancePercentage": 87,
+                "Thermodynamics": "A+",
+                "Physics": "B-",
+                "Contracts": "A+",
+                "Accounting": "A",
+                "Math": "A"
+            },
+            "8": {
+                "attendancePercentage": 76,
+                "Jurisprudence": "A+",
+                "Algorithms": "A-",
+                "Psychology": "B-",
+                "Thermodynamics": "B+",
+                "Math": "A"
+            },
+            "9": {
+                "attendancePercentage": 73,
+                "Statistics": "A+",
+                "Sociology": "A",
+                "Accounting": "A+",
+                "Psychology": "A-",
+                "English": "A"
+            },
+            "10": {
+                "attendancePercentage": 94,
+                "Signals": "A+",
+                "Jurisprudence": "A",
+                "English": "A",
+                "AI": "A",
+                "Statistics": "A+"
+            },
+            "11": {
+                "attendancePercentage": 93,
+                "Physics": "D",
+                "English": "A-",
+                "Contracts": "C",
+                "Thermodynamics": "C+",
+                "Economics": "A-"
+            },
+            "12": {
+                "attendancePercentage": 73,
+                "DataStructures": "B",
+                "Chemistry": "A+",
+                "Sociology": "C",
+                "Contracts": "B+",
+                "AI": "D"
+            },
+            "13": {
+                "attendancePercentage": 70,
+                "DataStructures": "A+",
+                "Circuits": "B+",
+                "Chemistry": "A-",
+                "Thermodynamics": "A",
+                "Contracts": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100023,
+        "ssc_gpa": 4.31,
+        "hsc_gpa": 3.57,
+        "gender": "male",
+        "birth_year": 2001,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 86,
+                "Statistics": "B",
+                "Accounting": "A+",
+                "Marketing": "A-",
+                "Algorithms": "A",
+                "DataStructures": "B-"
+            },
+            "2": {
+                "attendancePercentage": 85,
+                "Accounting": "A+",
+                "Algorithms": "B",
+                "Sociology": "A",
+                "Circuits": "A+",
+                "Economics": "A+"
+            },
+            "3": {
+                "attendancePercentage": 86,
+                "DataStructures": "B-",
+                "Physics": "B-",
+                "Statistics": "B",
+                "English": "B-",
+                "Signals": "A"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "AI": "A+",
+                "Signals": "A-",
+                "Sociology": "A",
+                "Programming": "B",
+                "Math": "A-"
+            },
+            "5": {
+                "attendancePercentage": 97,
+                "Algorithms": "C+",
+                "Statistics": "A+",
+                "Economics": "A+",
+                "Networks": "D",
+                "Accounting": "B"
+            },
+            "6": {
+                "attendancePercentage": 85,
+                "Contracts": "B-",
+                "Sociology": "D",
+                "Marketing": "C+",
+                "Economics": "A",
+                "Signals": "A"
+            },
+            "7": {
+                "attendancePercentage": 85,
+                "DataStructures": "B-",
+                "English": "A+",
+                "Networks": "A",
+                "Economics": "A-",
+                "Jurisprudence": "A"
+            },
+            "8": {
+                "attendancePercentage": 87,
+                "Sociology": "A-",
+                "Contracts": "A",
+                "Algorithms": "A",
+                "Networks": "B+",
+                "Programming": "A-"
+            },
+            "9": {
+                "attendancePercentage": 89,
+                "Chemistry": "A+",
+                "Algorithms": "A+",
+                "English": "A+",
+                "Math": "A+",
+                "Statistics": "A-"
+            },
+            "10": {
+                "attendancePercentage": 99,
+                "Sociology": "D",
+                "Contracts": "A",
+                "Signals": "B+",
+                "Algorithms": "A+",
+                "Math": "A"
+            },
+            "11": {
+                "attendancePercentage": 85,
+                "Jurisprudence": "A+",
+                "Algorithms": "A",
+                "Marketing": "A+",
+                "English": "B+",
+                "Math": "A-"
+            },
+            "12": {
+                "attendancePercentage": 92,
+                "Marketing": "A+",
+                "Chemistry": "A",
+                "Signals": "A-",
+                "DataStructures": "A+",
+                "Algorithms": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100024,
+        "ssc_gpa": 4.16,
+        "hsc_gpa": 4.63,
+        "gender": "male",
+        "birth_year": 2002,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 71,
+                "Accounting": "A+",
+                "English": "A-",
+                "Networks": "B",
+                "Chemistry": "B",
+                "Statistics": "D"
+            },
+            "2": {
+                "attendancePercentage": 67,
+                "Psychology": "C+",
+                "Economics": "B+",
+                "English": "A",
+                "Chemistry": "C",
+                "Algorithms": "D"
+            },
+            "3": {
+                "attendancePercentage": 64,
+                "Accounting": "A-",
+                "Circuits": "A",
+                "Programming": "A-",
+                "Contracts": "B",
+                "Economics": "A-"
+            },
+            "4": {
+                "attendancePercentage": 69,
+                "Circuits": "B+",
+                "Programming": "A-",
+                "Jurisprudence": "C+",
+                "English": "A",
+                "Statistics": "A-"
+            },
+            "5": {
+                "attendancePercentage": 68,
+                "English": "A+",
+                "Marketing": "A-",
+                "Algorithms": "B+",
+                "DataStructures": "B+",
+                "Psychology": "B"
+            },
+            "6": {
+                "attendancePercentage": 75,
+                "Contracts": "C+",
+                "AI": "B",
+                "Math": "A-",
+                "Signals": "C",
+                "Circuits": "C"
+            },
+            "7": {
+                "attendancePercentage": 68,
+                "Psychology": "B-",
+                "Physics": "B",
+                "Algorithms": "A-",
+                "English": "B+",
+                "DataStructures": "A+"
+            },
+            "8": {
+                "attendancePercentage": 68,
+                "English": "B",
+                "DataStructures": "C+",
+                "Statistics": "A+",
+                "Circuits": "A-",
+                "Jurisprudence": "A-"
+            },
+            "9": {
+                "attendancePercentage": 67,
+                "Psychology": "B+",
+                "Contracts": "A-",
+                "Sociology": "B+",
+                "Networks": "A-",
+                "English": "A-"
+            },
+            "10": {
+                "attendancePercentage": 69,
+                "Marketing": "A-",
+                "Programming": "B-",
+                "Physics": "A+",
+                "English": "A-",
+                "Psychology": "A"
+            },
+            "11": {
+                "attendancePercentage": 75,
+                "Chemistry": "A-",
+                "Algorithms": "B+",
+                "Signals": "A-",
+                "English": "B-",
+                "Networks": "A-"
+            },
+            "12": {
+                "attendancePercentage": 68,
+                "Circuits": "A+",
+                "Contracts": "A-",
+                "Physics": "A",
+                "Accounting": "A-",
+                "Thermodynamics": "A"
+            },
+            "13": {
+                "attendancePercentage": 61,
+                "Economics": "B+",
+                "Accounting": "B+",
+                "Jurisprudence": "B",
+                "Statistics": "B+",
+                "Chemistry": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100025,
+        "ssc_gpa": 2.68,
+        "hsc_gpa": 3.59,
+        "gender": "female",
+        "birth_year": 2000,
+        "department": "ECE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 94,
+                "Networks": "A-",
+                "English": "B+",
+                "Statistics": "A+",
+                "Contracts": "A+",
+                "Programming": "A+"
+            },
+            "2": {
+                "attendancePercentage": 85,
+                "AI": "B+",
+                "Contracts": "A+",
+                "Thermodynamics": "A",
+                "Marketing": "A",
+                "Psychology": "A-"
+            },
+            "3": {
+                "attendancePercentage": 70,
+                "Thermodynamics": "A+",
+                "Psychology": "A",
+                "Programming": "A",
+                "Signals": "B",
+                "DataStructures": "C"
+            },
+            "4": {
+                "attendancePercentage": 80,
+                "Circuits": "A",
+                "Sociology": "A+",
+                "Networks": "B",
+                "Physics": "A+",
+                "English": "A+"
+            },
+            "5": {
+                "attendancePercentage": 89,
+                "Psychology": "A+",
+                "AI": "B-",
+                "Economics": "C+",
+                "Sociology": "B",
+                "DataStructures": "C"
+            },
+            "6": {
+                "attendancePercentage": 71,
+                "Programming": "A",
+                "Contracts": "A",
+                "Thermodynamics": "A-",
+                "Physics": "A+",
+                "DataStructures": "C"
+            },
+            "7": {
+                "attendancePercentage": 83,
+                "AI": "B+",
+                "Economics": "D",
+                "Accounting": "A-",
+                "Programming": "A-",
+                "Math": "A"
+            },
+            "8": {
+                "attendancePercentage": 74,
+                "Jurisprudence": "A+",
+                "Circuits": "A-",
+                "Psychology": "C+",
+                "Math": "A",
+                "AI": "A"
+            },
+            "9": {
+                "attendancePercentage": 81,
+                "Economics": "A-",
+                "Programming": "A+",
+                "Chemistry": "A",
+                "AI": "B+",
+                "Jurisprudence": "B-"
+            },
+            "10": {
+                "attendancePercentage": 73,
+                "Sociology": "A",
+                "Statistics": "B+",
+                "Psychology": "A",
+                "Algorithms": "A-",
+                "DataStructures": "A+"
+            },
+            "11": {
+                "attendancePercentage": 74,
+                "Sociology": "A-",
+                "Jurisprudence": "A",
+                "Economics": "C+",
+                "Programming": "A+",
+                "Contracts": "A+"
+            },
+            "12": {
+                "attendancePercentage": 86,
+                "Marketing": "A+",
+                "Programming": "A",
+                "Physics": "D",
+                "Statistics": "A",
+                "Sociology": "D"
+            }
+        }
+    },
+    {
+        "student_id": 240100026,
+        "ssc_gpa": 4.47,
+        "hsc_gpa": 4.18,
+        "gender": "female",
+        "birth_year": 2000,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 78,
+                "Math": "A+",
+                "Sociology": "B+",
+                "Contracts": "C+",
+                "Marketing": "A",
+                "Signals": "A-"
+            },
+            "2": {
+                "attendancePercentage": 81,
+                "Psychology": "D",
+                "Algorithms": "A",
+                "Accounting": "A",
+                "Jurisprudence": "C",
+                "Chemistry": "C+"
+            },
+            "3": {
+                "attendancePercentage": 86,
+                "AI": "B+",
+                "Math": "B",
+                "Networks": "A+",
+                "Thermodynamics": "A+",
+                "Statistics": "A"
+            },
+            "4": {
+                "attendancePercentage": 91,
+                "Psychology": "A+",
+                "Contracts": "A+",
+                "Jurisprudence": "A+",
+                "Thermodynamics": "B+",
+                "English": "A-"
+            },
+            "5": {
+                "attendancePercentage": 77,
+                "Jurisprudence": "A-",
+                "Signals": "B-",
+                "Sociology": "A-",
+                "Psychology": "A+",
+                "Networks": "A+"
+            },
+            "6": {
+                "attendancePercentage": 80,
+                "AI": "A",
+                "Signals": "A+",
+                "Psychology": "B+",
+                "DataStructures": "C",
+                "Statistics": "D"
+            },
+            "7": {
+                "attendancePercentage": 93,
+                "Math": "C+",
+                "Circuits": "A-",
+                "Thermodynamics": "A-",
+                "Marketing": "B+",
+                "Signals": "A-"
+            },
+            "8": {
+                "attendancePercentage": 86,
+                "English": "A",
+                "Chemistry": "B",
+                "Economics": "A",
+                "Circuits": "A-",
+                "Accounting": "B-"
+            },
+            "9": {
+                "attendancePercentage": 75,
+                "Chemistry": "C+",
+                "Contracts": "A-",
+                "Programming": "D",
+                "AI": "D",
+                "Physics": "B+"
+            },
+            "10": {
+                "attendancePercentage": 75,
+                "Psychology": "B-",
+                "Physics": "B",
+                "Programming": "B+",
+                "Jurisprudence": "A+",
+                "Signals": "B+"
+            },
+            "11": {
+                "attendancePercentage": 90,
+                "Programming": "A+",
+                "Circuits": "B",
+                "Marketing": "C",
+                "Networks": "A",
+                "Algorithms": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100027,
+        "ssc_gpa": 3.15,
+        "hsc_gpa": 4.45,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 88,
+                "English": "A",
+                "Algorithms": "B-",
+                "Marketing": "A+",
+                "Accounting": "A-",
+                "Economics": "C+"
+            },
+            "2": {
+                "attendancePercentage": 99,
+                "Circuits": "D",
+                "Jurisprudence": "A+",
+                "Psychology": "C",
+                "Sociology": "A+",
+                "Contracts": "A+"
+            },
+            "3": {
+                "attendancePercentage": 87,
+                "Contracts": "B",
+                "English": "A",
+                "Signals": "A-",
+                "Accounting": "A-",
+                "Statistics": "C+"
+            },
+            "4": {
+                "attendancePercentage": 95,
+                "Programming": "A-",
+                "Circuits": "A+",
+                "Networks": "A",
+                "AI": "A+",
+                "Marketing": "A-"
+            },
+            "5": {
+                "attendancePercentage": 99,
+                "Signals": "A",
+                "Psychology": "A+",
+                "Jurisprudence": "B",
+                "Accounting": "A+",
+                "Marketing": "A+"
+            },
+            "6": {
+                "attendancePercentage": 97,
+                "Circuits": "A",
+                "English": "A",
+                "Thermodynamics": "B",
+                "Accounting": "C",
+                "Psychology": "C"
+            },
+            "7": {
+                "attendancePercentage": 97,
+                "Physics": "A",
+                "English": "B+",
+                "Chemistry": "A-",
+                "Jurisprudence": "A+",
+                "Programming": "A+"
+            },
+            "8": {
+                "attendancePercentage": 99,
+                "Programming": "A+",
+                "Signals": "A+",
+                "Jurisprudence": "C+",
+                "Accounting": "B+",
+                "DataStructures": "A+"
+            },
+            "9": {
+                "attendancePercentage": 94,
+                "English": "B-",
+                "Networks": "A+",
+                "Jurisprudence": "A+",
+                "Thermodynamics": "A",
+                "Circuits": "A+"
+            },
+            "10": {
+                "attendancePercentage": 98,
+                "Thermodynamics": "B+",
+                "Chemistry": "B-",
+                "Contracts": "B+",
+                "English": "A",
+                "Circuits": "C+"
+            },
+            "11": {
+                "attendancePercentage": 97,
+                "Economics": "A+",
+                "Physics": "C",
+                "Psychology": "A",
+                "Marketing": "A-",
+                "Networks": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100028,
+        "ssc_gpa": 4.19,
+        "hsc_gpa": 4.49,
+        "gender": "male",
+        "birth_year": 2002,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 96,
+                "Chemistry": "A+",
+                "Marketing": "C",
+                "English": "A",
+                "AI": "A-",
+                "Sociology": "B"
+            },
+            "2": {
+                "attendancePercentage": 92,
+                "English": "A",
+                "Networks": "A+",
+                "Marketing": "A",
+                "Contracts": "C+",
+                "Statistics": "A+"
+            },
+            "3": {
+                "attendancePercentage": 98,
+                "Psychology": "A+",
+                "Economics": "B+",
+                "Physics": "A",
+                "Programming": "A-",
+                "Statistics": "A+"
+            },
+            "4": {
+                "attendancePercentage": 88,
+                "Jurisprudence": "A",
+                "Physics": "B",
+                "Accounting": "B",
+                "Programming": "C",
+                "Circuits": "A+"
+            },
+            "5": {
+                "attendancePercentage": 95,
+                "Statistics": "C",
+                "Accounting": "C",
+                "English": "A+",
+                "Jurisprudence": "A+",
+                "Contracts": "A+"
+            },
+            "6": {
+                "attendancePercentage": 91,
+                "AI": "A+",
+                "Programming": "A-",
+                "English": "B-",
+                "Circuits": "A",
+                "Marketing": "A+"
+            },
+            "7": {
+                "attendancePercentage": 97,
+                "Chemistry": "B",
+                "Math": "A-",
+                "English": "A+",
+                "Algorithms": "A",
+                "Sociology": "A+"
+            },
+            "8": {
+                "attendancePercentage": 99,
+                "Marketing": "A+",
+                "Accounting": "A",
+                "AI": "A",
+                "Thermodynamics": "A",
+                "Sociology": "A+"
+            },
+            "9": {
+                "attendancePercentage": 96,
+                "Signals": "B-",
+                "Physics": "A+",
+                "Statistics": "A+",
+                "Accounting": "C+",
+                "Circuits": "A+"
+            },
+            "10": {
+                "attendancePercentage": 93,
+                "English": "A+",
+                "Contracts": "A+",
+                "Jurisprudence": "C+",
+                "Math": "C",
+                "Networks": "A+"
+            },
+            "11": {
+                "attendancePercentage": 99,
+                "Statistics": "A",
+                "Marketing": "A-",
+                "DataStructures": "C+",
+                "Jurisprudence": "B+",
+                "Signals": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100029,
+        "ssc_gpa": 2.69,
+        "hsc_gpa": 4.46,
+        "gender": "female",
+        "birth_year": 2000,
+        "department": "CSE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 83,
+                "Circuits": "A",
+                "Physics": "D",
+                "Algorithms": "A",
+                "Sociology": "A-",
+                "Networks": "B+"
+            },
+            "2": {
+                "attendancePercentage": 78,
+                "Marketing": "A",
+                "Statistics": "B-",
+                "Circuits": "A",
+                "English": "A",
+                "Math": "A+"
+            },
+            "3": {
+                "attendancePercentage": 85,
+                "AI": "B+",
+                "Chemistry": "A-",
+                "Networks": "A-",
+                "Psychology": "A+",
+                "Circuits": "B+"
+            },
+            "4": {
+                "attendancePercentage": 77,
+                "Jurisprudence": "B",
+                "Programming": "B+",
+                "Networks": "A",
+                "English": "A",
+                "Math": "A"
+            },
+            "5": {
+                "attendancePercentage": 83,
+                "Math": "B+",
+                "Psychology": "C+",
+                "Signals": "B",
+                "Economics": "A",
+                "Programming": "D"
+            },
+            "6": {
+                "attendancePercentage": 73,
+                "Statistics": "A+",
+                "Signals": "A-",
+                "Jurisprudence": "B+",
+                "Chemistry": "C",
+                "Psychology": "A+"
+            },
+            "7": {
+                "attendancePercentage": 70,
+                "Marketing": "A-",
+                "DataStructures": "A-",
+                "Algorithms": "B+",
+                "Contracts": "B+",
+                "Programming": "A"
+            },
+            "8": {
+                "attendancePercentage": 73,
+                "Psychology": "B",
+                "Sociology": "B+",
+                "Algorithms": "C+",
+                "Networks": "B-",
+                "Physics": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100030,
+        "ssc_gpa": 3.82,
+        "hsc_gpa": 2.56,
+        "gender": "male",
+        "birth_year": 2000,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 90,
+                "DataStructures": "A-",
+                "Physics": "A+",
+                "Programming": "C",
+                "Algorithms": "A+",
+                "Statistics": "A"
+            },
+            "2": {
+                "attendancePercentage": 86,
+                "DataStructures": "A+",
+                "Contracts": "C+",
+                "Networks": "A+",
+                "Programming": "A+",
+                "Thermodynamics": "B+"
+            },
+            "3": {
+                "attendancePercentage": 73,
+                "AI": "A-",
+                "Math": "C+",
+                "Circuits": "B+",
+                "Jurisprudence": "A-",
+                "DataStructures": "B+"
+            },
+            "4": {
+                "attendancePercentage": 87,
+                "AI": "B+",
+                "Accounting": "A",
+                "Algorithms": "C+",
+                "Circuits": "C+",
+                "Chemistry": "A-"
+            },
+            "5": {
+                "attendancePercentage": 81,
+                "Marketing": "A+",
+                "Signals": "A-",
+                "Contracts": "A-",
+                "Math": "B",
+                "Programming": "A+"
+            },
+            "6": {
+                "attendancePercentage": 79,
+                "Circuits": "A+",
+                "Marketing": "A+",
+                "Math": "A+",
+                "Chemistry": "B-",
+                "Thermodynamics": "A+"
+            },
+            "7": {
+                "attendancePercentage": 85,
+                "Math": "A-",
+                "AI": "A+",
+                "Contracts": "A",
+                "Signals": "A+",
+                "Networks": "A-"
+            },
+            "8": {
+                "attendancePercentage": 81,
+                "Chemistry": "A+",
+                "Programming": "B",
+                "Economics": "C+",
+                "Networks": "A+",
+                "AI": "A"
+            },
+            "9": {
+                "attendancePercentage": 94,
+                "Thermodynamics": "A+",
+                "Circuits": "A+",
+                "Accounting": "A",
+                "Signals": "A+",
+                "Economics": "C"
+            }
+        }
+    },
+    {
+        "student_id": 240100031,
+        "ssc_gpa": 4.75,
+        "hsc_gpa": 4.83,
+        "gender": "male",
+        "birth_year": 2004,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 87,
+                "Physics": "B+",
+                "Networks": "B-",
+                "Psychology": "C",
+                "Economics": "B-",
+                "Marketing": "B-"
+            },
+            "2": {
+                "attendancePercentage": 81,
+                "Math": "A-",
+                "Marketing": "A",
+                "Signals": "A+",
+                "Sociology": "A",
+                "Psychology": "A-"
+            },
+            "3": {
+                "attendancePercentage": 80,
+                "Programming": "B+",
+                "Contracts": "A",
+                "Psychology": "A",
+                "Algorithms": "A+",
+                "Accounting": "A"
+            },
+            "4": {
+                "attendancePercentage": 87,
+                "Economics": "A-",
+                "Physics": "A-",
+                "Signals": "A+",
+                "Accounting": "A",
+                "Contracts": "B"
+            },
+            "5": {
+                "attendancePercentage": 71,
+                "Statistics": "A-",
+                "Marketing": "B+",
+                "Physics": "B",
+                "Contracts": "D",
+                "AI": "B-"
+            },
+            "6": {
+                "attendancePercentage": 84,
+                "Chemistry": "A+",
+                "Psychology": "A-",
+                "Marketing": "A-",
+                "Contracts": "B+",
+                "Statistics": "B+"
+            },
+            "7": {
+                "attendancePercentage": 79,
+                "Algorithms": "B-",
+                "Signals": "B",
+                "Circuits": "A-",
+                "Sociology": "A-",
+                "Networks": "B-"
+            },
+            "8": {
+                "attendancePercentage": 74,
+                "AI": "B",
+                "Marketing": "A-",
+                "Jurisprudence": "B",
+                "Signals": "B",
+                "Circuits": "B"
+            },
+            "9": {
+                "attendancePercentage": 82,
+                "English": "B",
+                "Contracts": "B+",
+                "DataStructures": "B+",
+                "Accounting": "B-",
+                "Psychology": "C+"
+            },
+            "10": {
+                "attendancePercentage": 70,
+                "Algorithms": "A",
+                "Signals": "B+",
+                "Statistics": "A-",
+                "Accounting": "B",
+                "Thermodynamics": "B-"
+            },
+            "11": {
+                "attendancePercentage": 93,
+                "Circuits": "A-",
+                "DataStructures": "A-",
+                "Algorithms": "A",
+                "Contracts": "B-",
+                "Thermodynamics": "A-"
+            },
+            "12": {
+                "attendancePercentage": 80,
+                "Networks": "B",
+                "Thermodynamics": "B",
+                "English": "B",
+                "Signals": "B",
+                "Circuits": "B"
+            }
+        }
+    },
+    {
+        "student_id": 240100032,
+        "ssc_gpa": 3.11,
+        "hsc_gpa": 3.79,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "ECE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 69,
+                "Marketing": "A-",
+                "Chemistry": "A-",
+                "Signals": "A-",
+                "Circuits": "B",
+                "Programming": "B"
+            },
+            "2": {
+                "attendancePercentage": 63,
+                "Signals": "A",
+                "Economics": "A+",
+                "Accounting": "D",
+                "Thermodynamics": "A-",
+                "Psychology": "B-"
+            },
+            "3": {
+                "attendancePercentage": 69,
+                "Math": "A-",
+                "AI": "A-",
+                "Contracts": "A-",
+                "Sociology": "D",
+                "Physics": "A-"
+            },
+            "4": {
+                "attendancePercentage": 65,
+                "Networks": "B",
+                "Physics": "A",
+                "DataStructures": "C",
+                "Thermodynamics": "B+",
+                "Accounting": "B+"
+            },
+            "5": {
+                "attendancePercentage": 62,
+                "Programming": "B+",
+                "Algorithms": "B+",
+                "Physics": "A-",
+                "Chemistry": "A+",
+                "Circuits": "B"
+            },
+            "6": {
+                "attendancePercentage": 72,
+                "Contracts": "A-",
+                "Accounting": "A-",
+                "Math": "C",
+                "Signals": "B+",
+                "Algorithms": "C+"
+            },
+            "7": {
+                "attendancePercentage": 70,
+                "Sociology": "C",
+                "Algorithms": "B",
+                "Circuits": "B+",
+                "AI": "A+",
+                "Physics": "A"
+            },
+            "8": {
+                "attendancePercentage": 64,
+                "Sociology": "A-",
+                "Contracts": "A",
+                "English": "A+",
+                "Marketing": "A",
+                "Math": "A-"
+            },
+            "9": {
+                "attendancePercentage": 72,
+                "Circuits": "B-",
+                "Thermodynamics": "B-",
+                "Economics": "A+",
+                "Networks": "C",
+                "Programming": "A"
+            },
+            "10": {
+                "attendancePercentage": 72,
+                "Networks": "B-",
+                "Thermodynamics": "A-",
+                "Physics": "B+",
+                "Economics": "B-",
+                "Accounting": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100033,
+        "ssc_gpa": 4.82,
+        "hsc_gpa": 3.22,
+        "gender": "male",
+        "birth_year": 2002,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 75,
+                "Economics": "B",
+                "Thermodynamics": "A-",
+                "Physics": "A+",
+                "AI": "B+",
+                "Sociology": "A-"
+            },
+            "2": {
+                "attendancePercentage": 80,
+                "Statistics": "B",
+                "Algorithms": "A-",
+                "Economics": "A",
+                "Programming": "B",
+                "AI": "A-"
+            },
+            "3": {
+                "attendancePercentage": 70,
+                "AI": "B",
+                "Chemistry": "B",
+                "Signals": "A",
+                "Marketing": "C+",
+                "Sociology": "A-"
+            },
+            "4": {
+                "attendancePercentage": 66,
+                "Psychology": "B",
+                "English": "A-",
+                "Economics": "A-",
+                "Math": "B+",
+                "Marketing": "B"
+            },
+            "5": {
+                "attendancePercentage": 81,
+                "Networks": "A-",
+                "Marketing": "A-",
+                "Programming": "A+",
+                "Psychology": "A+",
+                "DataStructures": "B-"
+            },
+            "6": {
+                "attendancePercentage": 71,
+                "Psychology": "A-",
+                "Economics": "B+",
+                "Contracts": "A-",
+                "Accounting": "B+",
+                "Marketing": "B+"
+            },
+            "7": {
+                "attendancePercentage": 71,
+                "Chemistry": "A",
+                "Circuits": "A+",
+                "Sociology": "A",
+                "Economics": "A",
+                "Physics": "B+"
+            },
+            "8": {
+                "attendancePercentage": 66,
+                "Circuits": "B+",
+                "Psychology": "A",
+                "AI": "B+",
+                "Contracts": "A",
+                "Sociology": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100034,
+        "ssc_gpa": 3.31,
+        "hsc_gpa": 3.19,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 82,
+                "Sociology": "A-",
+                "Accounting": "B+",
+                "Math": "A",
+                "Thermodynamics": "A",
+                "Marketing": "A-"
+            },
+            "2": {
+                "attendancePercentage": 83,
+                "Accounting": "A-",
+                "Chemistry": "A",
+                "AI": "B+",
+                "Sociology": "A",
+                "Math": "A+"
+            },
+            "3": {
+                "attendancePercentage": 79,
+                "English": "A",
+                "AI": "A-",
+                "Sociology": "A+",
+                "Programming": "B",
+                "Circuits": "B"
+            },
+            "4": {
+                "attendancePercentage": 75,
+                "English": "C",
+                "Psychology": "B+",
+                "Jurisprudence": "B",
+                "Algorithms": "B",
+                "Programming": "A-"
+            },
+            "5": {
+                "attendancePercentage": 83,
+                "Jurisprudence": "A",
+                "Networks": "B+",
+                "Programming": "A+",
+                "Accounting": "B+",
+                "Marketing": "D"
+            },
+            "6": {
+                "attendancePercentage": 81,
+                "DataStructures": "B",
+                "Thermodynamics": "B-",
+                "Chemistry": "A",
+                "Signals": "A-",
+                "English": "A-"
+            },
+            "7": {
+                "attendancePercentage": 92,
+                "DataStructures": "A+",
+                "Sociology": "B",
+                "Statistics": "D",
+                "Networks": "D",
+                "Contracts": "D"
+            },
+            "8": {
+                "attendancePercentage": 74,
+                "Jurisprudence": "B-",
+                "Accounting": "A-",
+                "Contracts": "A-",
+                "Economics": "A+",
+                "Programming": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100035,
+        "ssc_gpa": 4.05,
+        "hsc_gpa": 3.81,
+        "gender": "female",
+        "birth_year": 2000,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 96,
+                "Economics": "A+",
+                "Chemistry": "B",
+                "Networks": "A",
+                "Statistics": "A-",
+                "Accounting": "A+"
+            },
+            "2": {
+                "attendancePercentage": 97,
+                "Economics": "A",
+                "Algorithms": "B-",
+                "Jurisprudence": "A+",
+                "Contracts": "B+",
+                "DataStructures": "A-"
+            },
+            "3": {
+                "attendancePercentage": 89,
+                "Statistics": "D",
+                "Jurisprudence": "A",
+                "Economics": "B-",
+                "AI": "C",
+                "Accounting": "A"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Physics": "B+",
+                "Algorithms": "A+",
+                "Circuits": "C+",
+                "AI": "C",
+                "Chemistry": "A+"
+            },
+            "5": {
+                "attendancePercentage": 96,
+                "DataStructures": "A",
+                "Statistics": "B",
+                "Networks": "A-",
+                "Economics": "A-",
+                "Marketing": "A+"
+            },
+            "6": {
+                "attendancePercentage": 93,
+                "Sociology": "A+",
+                "Thermodynamics": "A+",
+                "Accounting": "A",
+                "Circuits": "A+",
+                "Jurisprudence": "A-"
+            },
+            "7": {
+                "attendancePercentage": 85,
+                "Thermodynamics": "A-",
+                "Economics": "C+",
+                "Marketing": "A",
+                "Sociology": "A+",
+                "Algorithms": "A-"
+            },
+            "8": {
+                "attendancePercentage": 98,
+                "Statistics": "C",
+                "Psychology": "D",
+                "Signals": "B-",
+                "Physics": "C",
+                "AI": "B+"
+            },
+            "9": {
+                "attendancePercentage": 94,
+                "Jurisprudence": "A+",
+                "Signals": "C+",
+                "AI": "A+",
+                "English": "A+",
+                "Math": "A-"
+            },
+            "10": {
+                "attendancePercentage": 94,
+                "Math": "B",
+                "Physics": "A",
+                "Marketing": "A",
+                "Jurisprudence": "A",
+                "Economics": "A+"
+            },
+            "11": {
+                "attendancePercentage": 94,
+                "Math": "A",
+                "DataStructures": "A-",
+                "Jurisprudence": "A+",
+                "Algorithms": "B-",
+                "Psychology": "A+"
+            },
+            "12": {
+                "attendancePercentage": 99,
+                "Algorithms": "D",
+                "Programming": "A+",
+                "English": "C+",
+                "Physics": "D",
+                "Networks": "B-"
+            }
+        }
+    },
+    {
+        "student_id": 240100036,
+        "ssc_gpa": 3.97,
+        "hsc_gpa": 4.05,
+        "gender": "male",
+        "birth_year": 2002,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 95,
+                "Sociology": "B-",
+                "Statistics": "A+",
+                "Marketing": "C",
+                "Contracts": "B+",
+                "Math": "B"
+            },
+            "2": {
+                "attendancePercentage": 78,
+                "DataStructures": "A-",
+                "Algorithms": "B-",
+                "Contracts": "B",
+                "English": "A",
+                "Sociology": "A-"
+            },
+            "3": {
+                "attendancePercentage": 85,
+                "Jurisprudence": "C+",
+                "Circuits": "B-",
+                "Algorithms": "A+",
+                "Statistics": "B",
+                "Psychology": "B"
+            },
+            "4": {
+                "attendancePercentage": 81,
+                "Signals": "A-",
+                "Chemistry": "A+",
+                "Marketing": "A",
+                "Physics": "B",
+                "Circuits": "B+"
+            },
+            "5": {
+                "attendancePercentage": 86,
+                "Programming": "A",
+                "Jurisprudence": "B+",
+                "Signals": "A-",
+                "Physics": "B",
+                "Economics": "A"
+            },
+            "6": {
+                "attendancePercentage": 80,
+                "Thermodynamics": "A+",
+                "Circuits": "B+",
+                "DataStructures": "A+",
+                "Networks": "B",
+                "Physics": "A-"
+            },
+            "7": {
+                "attendancePercentage": 86,
+                "AI": "B+",
+                "Jurisprudence": "A-",
+                "Signals": "A+",
+                "Statistics": "A-",
+                "Physics": "B+"
+            },
+            "8": {
+                "attendancePercentage": 90,
+                "Marketing": "A",
+                "Accounting": "B",
+                "English": "A-",
+                "Programming": "D",
+                "Statistics": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100037,
+        "ssc_gpa": 3.88,
+        "hsc_gpa": 3.9,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 69,
+                "English": "A",
+                "Psychology": "A",
+                "Physics": "C+",
+                "AI": "A",
+                "Marketing": "B+"
+            },
+            "2": {
+                "attendancePercentage": 95,
+                "Marketing": "A+",
+                "Thermodynamics": "A",
+                "Chemistry": "A",
+                "Circuits": "A",
+                "DataStructures": "B-"
+            },
+            "3": {
+                "attendancePercentage": 95,
+                "Algorithms": "A+",
+                "Sociology": "A",
+                "Networks": "B-",
+                "Thermodynamics": "A+",
+                "Accounting": "A"
+            },
+            "4": {
+                "attendancePercentage": 76,
+                "Physics": "A+",
+                "DataStructures": "A",
+                "Contracts": "B+",
+                "Chemistry": "A",
+                "Algorithms": "A-"
+            },
+            "5": {
+                "attendancePercentage": 78,
+                "Physics": "A-",
+                "Sociology": "B-",
+                "Signals": "A",
+                "Accounting": "A+",
+                "Jurisprudence": "A-"
+            },
+            "6": {
+                "attendancePercentage": 88,
+                "Economics": "A+",
+                "Marketing": "A+",
+                "Sociology": "A",
+                "DataStructures": "A",
+                "Programming": "C+"
+            },
+            "7": {
+                "attendancePercentage": 77,
+                "English": "D",
+                "Marketing": "B",
+                "Networks": "A",
+                "Circuits": "A",
+                "DataStructures": "B+"
+            },
+            "8": {
+                "attendancePercentage": 68,
+                "Algorithms": "B",
+                "AI": "A+",
+                "DataStructures": "A",
+                "Circuits": "A-",
+                "Programming": "A-"
+            },
+            "9": {
+                "attendancePercentage": 88,
+                "Economics": "A-",
+                "Accounting": "A+",
+                "Signals": "D",
+                "Programming": "A",
+                "Marketing": "A"
+            },
+            "10": {
+                "attendancePercentage": 90,
+                "Statistics": "A",
+                "Algorithms": "A+",
+                "Circuits": "B",
+                "Math": "A-",
+                "Networks": "A+"
+            },
+            "11": {
+                "attendancePercentage": 92,
+                "Circuits": "A+",
+                "AI": "A+",
+                "Marketing": "A",
+                "Sociology": "A-",
+                "Signals": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100038,
+        "ssc_gpa": 4.77,
+        "hsc_gpa": 3.42,
+        "gender": "male",
+        "birth_year": 2001,
+        "department": "LAW",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 93,
+                "Statistics": "A",
+                "Contracts": "A+",
+                "Psychology": "A",
+                "AI": "B+",
+                "Networks": "A"
+            },
+            "2": {
+                "attendancePercentage": 99,
+                "Signals": "A",
+                "Statistics": "A-",
+                "DataStructures": "A+",
+                "Accounting": "B",
+                "Chemistry": "A+"
+            },
+            "3": {
+                "attendancePercentage": 93,
+                "Economics": "A+",
+                "Networks": "A+",
+                "Chemistry": "C",
+                "DataStructures": "A+",
+                "Circuits": "B+"
+            },
+            "4": {
+                "attendancePercentage": 97,
+                "Math": "B",
+                "Sociology": "A+",
+                "Jurisprudence": "A-",
+                "DataStructures": "B-",
+                "Chemistry": "A+"
+            },
+            "5": {
+                "attendancePercentage": 86,
+                "Contracts": "A+",
+                "Accounting": "B+",
+                "Economics": "A+",
+                "Signals": "A-",
+                "Chemistry": "A-"
+            },
+            "6": {
+                "attendancePercentage": 90,
+                "DataStructures": "B",
+                "Statistics": "A+",
+                "Economics": "A-",
+                "Contracts": "A",
+                "Physics": "A-"
+            },
+            "7": {
+                "attendancePercentage": 89,
+                "Networks": "B-",
+                "Statistics": "A+",
+                "English": "A+",
+                "Thermodynamics": "B+",
+                "Chemistry": "C"
+            },
+            "8": {
+                "attendancePercentage": 93,
+                "Jurisprudence": "A+",
+                "Circuits": "B",
+                "Statistics": "A-",
+                "DataStructures": "A+",
+                "Accounting": "A+"
+            },
+            "9": {
+                "attendancePercentage": 99,
+                "Networks": "A",
+                "Chemistry": "A+",
+                "Algorithms": "B",
+                "Psychology": "A",
+                "Math": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100039,
+        "ssc_gpa": 4.51,
+        "hsc_gpa": 3.37,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 87,
+                "Signals": "A",
+                "Math": "A+",
+                "Contracts": "A",
+                "Economics": "A+",
+                "English": "A+"
+            },
+            "2": {
+                "attendancePercentage": 72,
+                "Algorithms": "B",
+                "Programming": "C",
+                "Economics": "B+",
+                "Jurisprudence": "B+",
+                "Contracts": "B-"
+            },
+            "3": {
+                "attendancePercentage": 80,
+                "Jurisprudence": "A",
+                "Signals": "A+",
+                "AI": "A",
+                "Psychology": "A",
+                "DataStructures": "A-"
+            },
+            "4": {
+                "attendancePercentage": 67,
+                "Thermodynamics": "D",
+                "Algorithms": "A-",
+                "Jurisprudence": "A",
+                "Marketing": "A-",
+                "DataStructures": "B+"
+            },
+            "5": {
+                "attendancePercentage": 75,
+                "Chemistry": "B-",
+                "Sociology": "A",
+                "DataStructures": "A-",
+                "Signals": "B",
+                "Jurisprudence": "A-"
+            },
+            "6": {
+                "attendancePercentage": 84,
+                "Sociology": "A+",
+                "Thermodynamics": "B",
+                "Psychology": "A-",
+                "AI": "B",
+                "Accounting": "A"
+            },
+            "7": {
+                "attendancePercentage": 70,
+                "AI": "A",
+                "Thermodynamics": "A-",
+                "English": "A-",
+                "Economics": "B",
+                "Psychology": "A-"
+            },
+            "8": {
+                "attendancePercentage": 67,
+                "English": "A-",
+                "Circuits": "B-",
+                "Sociology": "A-",
+                "Contracts": "C+",
+                "Statistics": "B+"
+            },
+            "9": {
+                "attendancePercentage": 82,
+                "Psychology": "C+",
+                "DataStructures": "A+",
+                "Accounting": "A-",
+                "Economics": "C+",
+                "Statistics": "B"
+            },
+            "10": {
+                "attendancePercentage": 68,
+                "Sociology": "C",
+                "Marketing": "A",
+                "Contracts": "A-",
+                "Economics": "C",
+                "Psychology": "B+"
+            },
+            "11": {
+                "attendancePercentage": 77,
+                "Thermodynamics": "A-",
+                "Jurisprudence": "A-",
+                "Algorithms": "A+",
+                "Physics": "A+",
+                "Accounting": "C+"
+            }
+        }
+    },
+    {
+        "student_id": 240100040,
+        "ssc_gpa": 4.78,
+        "hsc_gpa": 2.91,
+        "gender": "male",
+        "birth_year": 2001,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 92,
+                "Programming": "A+",
+                "Thermodynamics": "A",
+                "Math": "B+",
+                "English": "A+",
+                "Networks": "B+"
+            },
+            "2": {
+                "attendancePercentage": 82,
+                "Statistics": "A+",
+                "Circuits": "A+",
+                "Networks": "B-",
+                "AI": "B+",
+                "Programming": "A"
+            },
+            "3": {
+                "attendancePercentage": 92,
+                "DataStructures": "A+",
+                "Statistics": "C",
+                "Economics": "C+",
+                "Physics": "C+",
+                "Contracts": "A+"
+            },
+            "4": {
+                "attendancePercentage": 86,
+                "Signals": "C+",
+                "DataStructures": "C",
+                "Psychology": "B+",
+                "Statistics": "C",
+                "Jurisprudence": "A+"
+            },
+            "5": {
+                "attendancePercentage": 86,
+                "Thermodynamics": "B+",
+                "Marketing": "C+",
+                "Statistics": "A",
+                "Chemistry": "A+",
+                "Circuits": "C"
+            },
+            "6": {
+                "attendancePercentage": 74,
+                "Chemistry": "C",
+                "Networks": "B-",
+                "Circuits": "A-",
+                "Psychology": "A",
+                "English": "A-"
+            },
+            "7": {
+                "attendancePercentage": 94,
+                "Accounting": "A-",
+                "Jurisprudence": "B-",
+                "Economics": "A+",
+                "English": "D",
+                "Signals": "A"
+            },
+            "8": {
+                "attendancePercentage": 86,
+                "Programming": "A+",
+                "Contracts": "B+",
+                "Math": "A+",
+                "Networks": "C",
+                "Psychology": "A+"
+            },
+            "9": {
+                "attendancePercentage": 91,
+                "Programming": "D",
+                "Marketing": "A",
+                "Contracts": "A",
+                "Psychology": "A-",
+                "English": "C"
+            },
+            "10": {
+                "attendancePercentage": 74,
+                "Jurisprudence": "C+",
+                "Psychology": "A+",
+                "Marketing": "A-",
+                "Physics": "B",
+                "Economics": "A+"
+            },
+            "11": {
+                "attendancePercentage": 81,
+                "English": "A-",
+                "Sociology": "B",
+                "Statistics": "A",
+                "Accounting": "B",
+                "Math": "A"
+            },
+            "12": {
+                "attendancePercentage": 93,
+                "Sociology": "C",
+                "Circuits": "B",
+                "Math": "B-",
+                "Psychology": "B-",
+                "Statistics": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100041,
+        "ssc_gpa": 3.45,
+        "hsc_gpa": 4.52,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 90,
+                "Accounting": "A+",
+                "Signals": "A-",
+                "Algorithms": "A+",
+                "Networks": "A+",
+                "Jurisprudence": "A-"
+            },
+            "2": {
+                "attendancePercentage": 75,
+                "Marketing": "A-",
+                "Jurisprudence": "A-",
+                "DataStructures": "C+",
+                "Accounting": "A+",
+                "Algorithms": "A-"
+            },
+            "3": {
+                "attendancePercentage": 87,
+                "Statistics": "A+",
+                "Networks": "A+",
+                "Contracts": "A",
+                "Signals": "A+",
+                "Circuits": "C"
+            },
+            "4": {
+                "attendancePercentage": 93,
+                "Contracts": "C+",
+                "Circuits": "A+",
+                "AI": "D",
+                "Accounting": "C+",
+                "Psychology": "A-"
+            },
+            "5": {
+                "attendancePercentage": 70,
+                "Statistics": "A",
+                "Networks": "A+",
+                "Jurisprudence": "A-",
+                "Economics": "B+",
+                "AI": "D"
+            },
+            "6": {
+                "attendancePercentage": 84,
+                "Accounting": "A+",
+                "Math": "C",
+                "Programming": "C+",
+                "Psychology": "A",
+                "Signals": "C+"
+            },
+            "7": {
+                "attendancePercentage": 76,
+                "Thermodynamics": "A-",
+                "Algorithms": "C",
+                "Signals": "A+",
+                "Circuits": "A+",
+                "Chemistry": "A"
+            },
+            "8": {
+                "attendancePercentage": 70,
+                "Signals": "B",
+                "Physics": "B+",
+                "Programming": "B+",
+                "Statistics": "A-",
+                "Contracts": "B-"
+            }
+        }
+    },
+    {
+        "student_id": 240100042,
+        "ssc_gpa": 2.98,
+        "hsc_gpa": 2.62,
+        "gender": "female",
+        "birth_year": 2004,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 64,
+                "Networks": "A-",
+                "Signals": "A+",
+                "Contracts": "A-",
+                "Chemistry": "A+",
+                "Circuits": "A-"
+            },
+            "2": {
+                "attendancePercentage": 62,
+                "Economics": "C+",
+                "Statistics": "C",
+                "Circuits": "D",
+                "Chemistry": "B",
+                "Physics": "D"
+            },
+            "3": {
+                "attendancePercentage": 73,
+                "Signals": "C",
+                "Statistics": "A",
+                "DataStructures": "A-",
+                "Accounting": "A-",
+                "Sociology": "A-"
+            },
+            "4": {
+                "attendancePercentage": 61,
+                "Programming": "D",
+                "AI": "C",
+                "Signals": "B+",
+                "Physics": "A-",
+                "Psychology": "B+"
+            },
+            "5": {
+                "attendancePercentage": 60,
+                "DataStructures": "B+",
+                "Thermodynamics": "D",
+                "Contracts": "B-",
+                "AI": "B-",
+                "Marketing": "A-"
+            },
+            "6": {
+                "attendancePercentage": 66,
+                "DataStructures": "C",
+                "AI": "A-",
+                "Marketing": "A-",
+                "English": "D",
+                "Algorithms": "A"
+            },
+            "7": {
+                "attendancePercentage": 70,
+                "Chemistry": "A-",
+                "DataStructures": "B-",
+                "Sociology": "A",
+                "Contracts": "A-",
+                "Algorithms": "B-"
+            },
+            "8": {
+                "attendancePercentage": 75,
+                "Accounting": "A",
+                "English": "B",
+                "Thermodynamics": "B+",
+                "Jurisprudence": "A-",
+                "Circuits": "C"
+            }
+        }
+    },
+    {
+        "student_id": 240100043,
+        "ssc_gpa": 4.44,
+        "hsc_gpa": 3.47,
+        "gender": "female",
+        "birth_year": 1998,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 90,
+                "Physics": "A+",
+                "Math": "A+",
+                "Networks": "A-",
+                "Psychology": "B",
+                "Algorithms": "A-"
+            },
+            "2": {
+                "attendancePercentage": 89,
+                "Math": "B-",
+                "Marketing": "A",
+                "Sociology": "C",
+                "Physics": "B+",
+                "AI": "A"
+            },
+            "3": {
+                "attendancePercentage": 85,
+                "Sociology": "B+",
+                "Marketing": "A+",
+                "Thermodynamics": "A",
+                "Psychology": "A-",
+                "Economics": "A"
+            },
+            "4": {
+                "attendancePercentage": 90,
+                "Economics": "B",
+                "Physics": "B",
+                "Psychology": "A+",
+                "Circuits": "C",
+                "Jurisprudence": "A-"
+            },
+            "5": {
+                "attendancePercentage": 94,
+                "Programming": "B",
+                "Algorithms": "B-",
+                "Marketing": "A+",
+                "Sociology": "A",
+                "Statistics": "A"
+            },
+            "6": {
+                "attendancePercentage": 92,
+                "Economics": "B+",
+                "Contracts": "B+",
+                "Physics": "B",
+                "Thermodynamics": "B",
+                "Programming": "A"
+            },
+            "7": {
+                "attendancePercentage": 97,
+                "Algorithms": "A",
+                "Signals": "D",
+                "Physics": "A+",
+                "Statistics": "A",
+                "DataStructures": "D"
+            },
+            "8": {
+                "attendancePercentage": 85,
+                "Chemistry": "A",
+                "Statistics": "A+",
+                "Economics": "A+",
+                "Algorithms": "A",
+                "Marketing": "A+"
+            },
+            "9": {
+                "attendancePercentage": 95,
+                "Sociology": "A+",
+                "Jurisprudence": "D",
+                "Physics": "A",
+                "Math": "C",
+                "Marketing": "A-"
+            },
+            "10": {
+                "attendancePercentage": 93,
+                "Signals": "A+",
+                "Contracts": "B-",
+                "Marketing": "A+",
+                "Networks": "A+",
+                "English": "A"
+            },
+            "11": {
+                "attendancePercentage": 98,
+                "Math": "B+",
+                "Chemistry": "A+",
+                "Signals": "B-",
+                "AI": "A+",
+                "Marketing": "C+"
+            }
+        }
+    },
+    {
+        "student_id": 240100044,
+        "ssc_gpa": 3.91,
+        "hsc_gpa": 3.92,
+        "gender": "female",
+        "birth_year": 2002,
+        "department": "ENG",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 71,
+                "DataStructures": "A-",
+                "Algorithms": "A-",
+                "Jurisprudence": "B",
+                "Accounting": "A-",
+                "Physics": "A-"
+            },
+            "2": {
+                "attendancePercentage": 66,
+                "Contracts": "A",
+                "Accounting": "A-",
+                "Chemistry": "A+",
+                "Algorithms": "A",
+                "Physics": "A"
+            },
+            "3": {
+                "attendancePercentage": 69,
+                "Math": "C+",
+                "DataStructures": "A-",
+                "Networks": "C+",
+                "Physics": "B",
+                "Algorithms": "A-"
+            },
+            "4": {
+                "attendancePercentage": 73,
+                "Signals": "A",
+                "Algorithms": "A-",
+                "DataStructures": "D",
+                "Jurisprudence": "B-",
+                "Networks": "A-"
+            },
+            "5": {
+                "attendancePercentage": 61,
+                "Circuits": "A",
+                "Chemistry": "B+",
+                "Contracts": "B-",
+                "AI": "B+",
+                "Thermodynamics": "B+"
+            },
+            "6": {
+                "attendancePercentage": 65,
+                "Marketing": "A-",
+                "Programming": "D",
+                "Circuits": "A",
+                "DataStructures": "B-",
+                "Contracts": "D"
+            },
+            "7": {
+                "attendancePercentage": 74,
+                "Chemistry": "A-",
+                "Contracts": "C+",
+                "Jurisprudence": "B+",
+                "DataStructures": "C+",
+                "Physics": "A-"
+            },
+            "8": {
+                "attendancePercentage": 61,
+                "Economics": "A-",
+                "Statistics": "B",
+                "AI": "B+",
+                "Physics": "B+",
+                "Psychology": "B"
+            },
+            "9": {
+                "attendancePercentage": 70,
+                "Physics": "C+",
+                "Contracts": "A+",
+                "Algorithms": "A",
+                "Economics": "B-",
+                "Chemistry": "A-"
+            },
+            "10": {
+                "attendancePercentage": 65,
+                "Signals": "C",
+                "Thermodynamics": "C+",
+                "Psychology": "A+",
+                "Programming": "A",
+                "Algorithms": "A-"
+            },
+            "11": {
+                "attendancePercentage": 60,
+                "Chemistry": "B+",
+                "Networks": "B+",
+                "Algorithms": "B",
+                "Jurisprudence": "A+",
+                "Math": "B-"
+            }
+        }
+    },
+    {
+        "student_id": 240100045,
+        "ssc_gpa": 4.75,
+        "hsc_gpa": 4.08,
+        "gender": "female",
+        "birth_year": 1999,
+        "department": "EEE",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 94,
+                "DataStructures": "A+",
+                "Economics": "A+",
+                "English": "C",
+                "Chemistry": "A-",
+                "Thermodynamics": "B"
+            },
+            "2": {
+                "attendancePercentage": 87,
+                "Networks": "B",
+                "DataStructures": "A",
+                "Signals": "A",
+                "Statistics": "A-",
+                "Thermodynamics": "A"
+            },
+            "3": {
+                "attendancePercentage": 91,
+                "Statistics": "C",
+                "Chemistry": "A+",
+                "AI": "A",
+                "Thermodynamics": "B",
+                "Circuits": "A"
+            },
+            "4": {
+                "attendancePercentage": 98,
+                "Signals": "A",
+                "Sociology": "A+",
+                "Accounting": "B+",
+                "Circuits": "A+",
+                "Math": "A+"
+            },
+            "5": {
+                "attendancePercentage": 98,
+                "Marketing": "B+",
+                "Jurisprudence": "A+",
+                "Signals": "B+",
+                "DataStructures": "A+",
+                "Accounting": "B"
+            },
+            "6": {
+                "attendancePercentage": 91,
+                "English": "A",
+                "Accounting": "A+",
+                "Contracts": "A+",
+                "Jurisprudence": "A+",
+                "Sociology": "A+"
+            },
+            "7": {
+                "attendancePercentage": 92,
+                "Networks": "A+",
+                "Sociology": "A+",
+                "Signals": "A+",
+                "Accounting": "B-",
+                "Math": "D"
+            },
+            "8": {
+                "attendancePercentage": 85,
+                "Physics": "D",
+                "Signals": "C+",
+                "Contracts": "B",
+                "Programming": "B+",
+                "English": "A-"
+            },
+            "9": {
+                "attendancePercentage": 89,
+                "Statistics": "A",
+                "Algorithms": "B-",
+                "Accounting": "B",
+                "Contracts": "B-",
+                "Chemistry": "C+"
+            },
+            "10": {
+                "attendancePercentage": 95,
+                "Networks": "A+",
+                "DataStructures": "A+",
+                "Algorithms": "B-",
+                "Signals": "A",
+                "AI": "B-"
+            },
+            "11": {
+                "attendancePercentage": 95,
+                "Algorithms": "A",
+                "Marketing": "A+",
+                "Chemistry": "A-",
+                "DataStructures": "A",
+                "Physics": "A"
+            },
+            "12": {
+                "attendancePercentage": 89,
+                "Accounting": "A-",
+                "Statistics": "A+",
+                "DataStructures": "D",
+                "Programming": "A+",
+                "Sociology": "A+"
+            }
+        }
+    },
+    {
+        "student_id": 240100046,
+        "ssc_gpa": 3.56,
+        "hsc_gpa": 2.97,
+        "gender": "male",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 88,
+                "Chemistry": "C",
+                "AI": "A",
+                "Programming": "A+",
+                "Thermodynamics": "A+",
+                "Sociology": "B+"
+            },
+            "2": {
+                "attendancePercentage": 84,
+                "English": "B+",
+                "DataStructures": "A",
+                "Jurisprudence": "A+",
+                "Contracts": "A+",
+                "Thermodynamics": "B"
+            },
+            "3": {
+                "attendancePercentage": 87,
+                "Math": "A+",
+                "Circuits": "A",
+                "Signals": "A",
+                "Chemistry": "A-",
+                "Statistics": "C+"
+            },
+            "4": {
+                "attendancePercentage": 79,
+                "Psychology": "B-",
+                "Math": "A+",
+                "Chemistry": "B",
+                "Networks": "A",
+                "Contracts": "A"
+            },
+            "5": {
+                "attendancePercentage": 78,
+                "DataStructures": "B-",
+                "Statistics": "A-",
+                "Marketing": "A",
+                "Programming": "A+",
+                "AI": "A"
+            },
+            "6": {
+                "attendancePercentage": 94,
+                "Marketing": "A-",
+                "Economics": "A",
+                "Physics": "B",
+                "AI": "B+",
+                "Circuits": "B+"
+            },
+            "7": {
+                "attendancePercentage": 76,
+                "Contracts": "A+",
+                "Statistics": "A-",
+                "Psychology": "A+",
+                "Algorithms": "B+",
+                "English": "A"
+            },
+            "8": {
+                "attendancePercentage": 92,
+                "Algorithms": "B+",
+                "Math": "A+",
+                "Jurisprudence": "A",
+                "DataStructures": "A",
+                "Contracts": "A-"
+            },
+            "9": {
+                "attendancePercentage": 95,
+                "AI": "A-",
+                "DataStructures": "B+",
+                "Circuits": "A-",
+                "Jurisprudence": "A",
+                "Algorithms": "B-"
+            },
+            "10": {
+                "attendancePercentage": 91,
+                "Thermodynamics": "A+",
+                "Algorithms": "A",
+                "Statistics": "B",
+                "Signals": "A+",
+                "AI": "A-"
+            }
+        }
+    },
+    {
+        "student_id": 240100047,
+        "ssc_gpa": 2.64,
+        "hsc_gpa": 2.67,
+        "gender": "female",
+        "birth_year": 1998,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 89,
+                "Math": "B+",
+                "Jurisprudence": "A-",
+                "Networks": "B+",
+                "Circuits": "B+",
+                "Statistics": "B+"
+            },
+            "2": {
+                "attendancePercentage": 70,
+                "Jurisprudence": "B-",
+                "Physics": "B",
+                "Accounting": "A",
+                "Algorithms": "B-",
+                "Statistics": "A"
+            },
+            "3": {
+                "attendancePercentage": 78,
+                "Marketing": "A",
+                "Programming": "B",
+                "Psychology": "A",
+                "AI": "A+",
+                "DataStructures": "B+"
+            },
+            "4": {
+                "attendancePercentage": 95,
+                "Contracts": "B",
+                "Programming": "B-",
+                "Marketing": "D",
+                "Accounting": "B+",
+                "DataStructures": "A"
+            },
+            "5": {
+                "attendancePercentage": 86,
+                "Thermodynamics": "B",
+                "Accounting": "A",
+                "Jurisprudence": "B+",
+                "English": "A+",
+                "DataStructures": "B"
+            },
+            "6": {
+                "attendancePercentage": 85,
+                "Jurisprudence": "B",
+                "Thermodynamics": "A-",
+                "Circuits": "B",
+                "Psychology": "A+",
+                "Programming": "A-"
+            },
+            "7": {
+                "attendancePercentage": 74,
+                "Circuits": "C",
+                "Marketing": "A",
+                "Chemistry": "A+",
+                "Statistics": "B+",
+                "Jurisprudence": "B"
+            },
+            "8": {
+                "attendancePercentage": 83,
+                "Marketing": "B-",
+                "Contracts": "B+",
+                "Physics": "B+",
+                "AI": "A+",
+                "Accounting": "B+"
+            }
+        }
+    },
+    {
+        "student_id": 240100048,
+        "ssc_gpa": 3.8,
+        "hsc_gpa": 4.36,
+        "gender": "female",
+        "birth_year": 1998,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 71,
+                "Math": "C+",
+                "Accounting": "B+",
+                "Economics": "A-",
+                "Contracts": "A",
+                "Physics": "A-"
+            },
+            "2": {
+                "attendancePercentage": 89,
+                "Chemistry": "A-",
+                "Contracts": "A",
+                "Thermodynamics": "A+",
+                "Networks": "A+",
+                "Circuits": "A"
+            },
+            "3": {
+                "attendancePercentage": 90,
+                "AI": "A+",
+                "Signals": "C+",
+                "Jurisprudence": "B+",
+                "Networks": "A",
+                "Programming": "D"
+            },
+            "4": {
+                "attendancePercentage": 66,
+                "Algorithms": "B+",
+                "Accounting": "A-",
+                "Jurisprudence": "A-",
+                "Programming": "A",
+                "Contracts": "C"
+            },
+            "5": {
+                "attendancePercentage": 76,
+                "Signals": "B+",
+                "Psychology": "A",
+                "Algorithms": "A",
+                "Networks": "A-",
+                "Programming": "B-"
+            },
+            "6": {
+                "attendancePercentage": 76,
+                "Jurisprudence": "B-",
+                "Chemistry": "C",
+                "DataStructures": "B-",
+                "Signals": "A",
+                "Sociology": "C+"
+            },
+            "7": {
+                "attendancePercentage": 71,
+                "Algorithms": "B-",
+                "Circuits": "B",
+                "Sociology": "B+",
+                "Physics": "B",
+                "Jurisprudence": "B"
+            },
+            "8": {
+                "attendancePercentage": 79,
+                "Psychology": "B+",
+                "Sociology": "B+",
+                "Algorithms": "A",
+                "English": "B-",
+                "Contracts": "A"
+            },
+            "9": {
+                "attendancePercentage": 95,
+                "Algorithms": "A-",
+                "DataStructures": "A-",
+                "Math": "A+",
+                "Thermodynamics": "A",
+                "Sociology": "A+"
+            },
+            "10": {
+                "attendancePercentage": 69,
+                "Signals": "A-",
+                "Physics": "D",
+                "Thermodynamics": "A",
+                "AI": "A-",
+                "Chemistry": "A-"
+            },
+            "11": {
+                "attendancePercentage": 81,
+                "Jurisprudence": "B+",
+                "Algorithms": "C+",
+                "Thermodynamics": "A-",
+                "Circuits": "A",
+                "Physics": "B"
+            },
+            "12": {
+                "attendancePercentage": 91,
+                "Networks": "A+",
+                "DataStructures": "C",
+                "Math": "C+",
+                "Economics": "A",
+                "Signals": "A"
+            }
+        }
+    },
+    {
+        "student_id": 240100049,
+        "ssc_gpa": 4.36,
+        "hsc_gpa": 4.55,
+        "gender": "female",
+        "birth_year": 2003,
+        "department": "BBA",
+        "semesters": {
+            "1": {
+                "attendancePercentage": 75,
+                "Circuits": "B+",
+                "DataStructures": "A-",
+                "Math": "D",
+                "Sociology": "A",
+                "Thermodynamics": "A-"
+            },
+            "2": {
+                "attendancePercentage": 75,
+                "Chemistry": "A-",
+                "Jurisprudence": "A",
+                "DataStructures": "A",
+                "Statistics": "A",
+                "Economics": "A-"
+            },
+            "3": {
+                "attendancePercentage": 88,
+                "Jurisprudence": "A",
+                "Economics": "B",
+                "Algorithms": "A",
+                "Chemistry": "A+",
+                "Thermodynamics": "A"
+            },
+            "4": {
+                "attendancePercentage": 72,
+                "Signals": "B+",
+                "AI": "C+",
+                "Math": "C",
+                "Sociology": "B+",
+                "Algorithms": "A"
+            },
+            "5": {
+                "attendancePercentage": 79,
+                "Programming": "A+",
+                "Accounting": "A",
+                "Thermodynamics": "B-",
+                "Statistics": "A-",
+                "Contracts": "A-"
+            },
+            "6": {
+                "attendancePercentage": 72,
+                "Networks": "A-",
+                "Statistics": "A-",
+                "English": "A",
+                "Accounting": "B-",
+                "Economics": "C"
+            },
+            "7": {
+                "attendancePercentage": 84,
+                "Economics": "B",
+                "Jurisprudence": "A-",
+                "Math": "A",
+                "Psychology": "A-",
+                "Thermodynamics": "B"
+            },
+            "8": {
+                "attendancePercentage": 91,
+                "Marketing": "A-",
+                "Jurisprudence": "B-",
+                "Thermodynamics": "B",
+                "Chemistry": "A-",
+                "Math": "A+"
+            },
+            "9": {
+                "attendancePercentage": 73,
+                "Programming": "C",
+                "Statistics": "C+",
+                "Chemistry": "B+",
+                "Physics": "B+",
+                "Jurisprudence": "B-"
+            }
+        }
+    }
+]
