@@ -23,17 +23,29 @@ model User {
   createdAt    DateTime @default(now())
 }
 
+enum ModelRunStatus {
+  PENDING
+  RUNNING
+  SUCCEEDED
+  FAILED
+}
+
 model ModelRun {
-  id           String   @id @default(cuid())
+  id           String         @id @default(cuid())
   orgId        String
-  org          Organization @relation(fields: [orgId], references: [id])
-  status       String   // PENDING|RUNNING|SUCCEEDED|FAILED
+  org          Organization   @relation(fields: [orgId], references: [id])
+  status       ModelRunStatus @default(PENDING)
   config       Json
   metrics      Json?
-  artifactsDir String?
-  plots        Json?
-  createdAt    DateTime @default(now())
+  artifactsDir String
+  plots        Json[]
+  gradePoints  Json?
+  bestModel    String?
+  createdAt    DateTime       @default(now())
   finishedAt   DateTime?
+  supersededAt DateTime?
+
+  @@index([orgId, createdAt(sort: Desc)])
 }
 
 model Prediction {
@@ -43,5 +55,9 @@ model Prediction {
   studentId  String
   inputPath  String
   results    Json
+  outFile    String
+  summary    Json?
   createdAt  DateTime @default(now())
+
+  @@index([orgId, createdAt(sort: Desc)])
 }
