@@ -36,12 +36,12 @@ model ModelRun {
   id           String         @id @default(cuid())
   orgId        String
   org          Organization   @relation(fields: [orgId], references: [id])
-  status       ModelRunStatus @default(PENDING)
-  config       String         @db.Text
-  metrics      String?        @db.Text
+  status       String         @default("PENDING")
+  config       String
+  metrics      String?
   artifactsDir String
-  plots        String?        @db.Text
-  gradePoints  String?        @db.Text
+  plots        String?
+  gradePoints  String?
   bestModel    String?
   createdAt    DateTime       @default(now())
   finishedAt   DateTime?
@@ -56,9 +56,9 @@ model Prediction {
   org        Organization @relation(fields: [orgId], references: [id])
   studentId  String
   inputPath  String
-  results    String        @db.Text
+  results    String
   outFile    String
-  summary    String?       @db.Text
+  summary    String?
   createdAt  DateTime      @default(now())
 
   @@index([orgId, createdAt(sort: Desc)])
