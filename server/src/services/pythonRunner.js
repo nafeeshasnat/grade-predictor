@@ -10,7 +10,10 @@ export function spawnTrain({ orgId, trainJson, configJson, outDir, onData, onEnd
     '--config-json', path.resolve(configJson),
     '--out-dir', path.resolve(outDir)
   ];
-  const p = spawn(PY, args, { cwd: process.cwd() });
+  const p = spawn(PY, args, {
+    cwd: process.cwd(),
+    env: { ...process.env, PYTHONUNBUFFERED: '1' }
+  });
   p.stdout.on('data', d => onData?.(d.toString()));
   p.stderr.on('data', d => onData?.(d.toString()));
   p.on('close', code => onEnd?.(code));
@@ -26,7 +29,10 @@ export function spawnPredict({ orgId, studentJson, artifactsDir, outFile, onData
     '--artifacts-dir', path.resolve(artifactsDir),
     '--out-file', path.resolve(outFile)
   ];
-  const p = spawn(PY, args, { cwd: process.cwd() });
+  const p = spawn(PY, args, {
+    cwd: process.cwd(),
+    env: { ...process.env, PYTHONUNBUFFERED: '1' }
+  });
   p.stdout.on('data', d => onData?.(d.toString()));
   p.stderr.on('data', d => onData?.(d.toString()));
   p.on('close', code => onEnd?.(code));
