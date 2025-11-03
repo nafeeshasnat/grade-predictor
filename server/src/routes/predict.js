@@ -104,7 +104,7 @@ export default function predictRoutes(prisma) {
         studentId,
         inputPath,
         outFile,
-        results: { status: 'PENDING' }
+        results: JSON.stringify({ status: 'PENDING' })
       }
     });
 
@@ -136,7 +136,7 @@ export default function predictRoutes(prisma) {
         if (!payload || payload.status !== 'ok' || code !== 0) {
           await prisma.prediction.update({
             where: { id: predictionId },
-            data: { results: { status: 'FAILED' } }
+            data: { results: JSON.stringify({ status: 'FAILED' }) }
           });
           return;
         }
@@ -155,7 +155,7 @@ export default function predictRoutes(prisma) {
 
         await prisma.prediction.update({
           where: { id: predictionId },
-          data: { results: payload, summary }
+          data: { results: JSON.stringify(payload), summary: JSON.stringify(summary) }
         });
       }
     });
@@ -207,7 +207,12 @@ export default function predictRoutes(prisma) {
       prisma.prediction.count({ where: { orgId: req.user.orgId } })
     ]);
 
-    res.json({ page, pageSize, total, items });
+    const normalizedItems = items.map((item) => ({
+      ...item,
+      summary: item.summary ? JSON.parse(item.summary) : null
+    }));
+
+    res.json({ page, pageSize, total, items: normalizedItems });
   });
 
   router.get('/:id', requireAuth, async (req, res) => {
@@ -218,6 +223,8 @@ export default function predictRoutes(prisma) {
 
     res.json({
       ...prediction,
+      results: prediction.results ? JSON.parse(prediction.results) : null,
+      summary: prediction.summary ? JSON.parse(prediction.summary) : null,
       inputUrl: `/static/${normalizeForStatic(prediction.inputPath)}`,
       resultUrl: `/static/${normalizeForStatic(prediction.outFile)}`
     });

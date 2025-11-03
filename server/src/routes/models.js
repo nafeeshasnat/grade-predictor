@@ -11,6 +11,27 @@ const upload = multer({ dest: 'storage/tmp' });
 
 const logSubscribers = new Map();
 
+function safeParseJson(value, fallback = null) {
+  if (value == null) return fallback;
+  try {
+    return JSON.parse(value);
+  } catch (err) {
+    console.warn('Failed to parse JSON from database column', err);
+    return fallback;
+  }
+}
+
+function hydrateRun(run) {
+  if (!run) return run;
+  return {
+    ...run,
+    config: safeParseJson(run.config),
+    metrics: safeParseJson(run.metrics),
+    plots: safeParseJson(run.plots, []),
+    gradePoints: safeParseJson(run.gradePoints)
+  };
+}
+
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
 }
@@ -53,10 +74,12 @@ export default function modelRoutes(prisma) {
   const router = express.Router();
 
   router.get('/status', requireAuth, async (req, res) => {
-    const lastRun = await prisma.modelRun.findFirst({
+    const lastRunRecord = await prisma.modelRun.findFirst({
       where: { orgId: req.user.orgId },
       orderBy: { createdAt: 'desc' }
     });
+
+    const lastRun = hydrateRun(lastRunRecord);
 
     res.json({ hasModel: Boolean(lastRun && lastRun.status === 'SUCCEEDED'), lastRun });
   });
@@ -120,9 +143,9 @@ export default function modelRoutes(prisma) {
         id: runId,
         orgId,
         status: 'PENDING',
-        config,
+        config: JSON.stringify(config),
         artifactsDir: runDir,
-        plots: [],
+        plots: JSON.stringify([]),
         createdAt: new Date()
       }
     });
@@ -166,9 +189,9 @@ export default function modelRoutes(prisma) {
             where: { id: runId },
             data: {
               status: 'SUCCEEDED',
-              metrics: resultPayload.metrics || {},
-              plots,
-              gradePoints: resultPayload.gradePoints || config.GRADE_POINTS,
+              metrics: JSON.stringify(resultPayload.metrics || {}),
+              plots: JSON.stringify(plots),
+              gradePoints: JSON.stringify(resultPayload.gradePoints || config.GRADE_POINTS),
               bestModel: resultPayload.bestModel || null,
               finishedAt
             }
@@ -232,17 +255,23 @@ export default function modelRoutes(prisma) {
   });
 
   router.get('/summary', requireAuth, async (req, res) => {
-    const run = await prisma.modelRun.findFirst({
+    const runRecord = await prisma.modelRun.findFirst({
       where: { orgId: req.user.orgId, status: 'SUCCEEDED' },
       orderBy: { createdAt: 'desc' }
     });
 
-    if (!run) {
+    if (!runRecord) {
       return res.json({ hasModel: false });
     }
 
+    const run = hydrateRun(runRecord);
+    const runConfig = run.config || {};
+    const runMetrics = run.metrics || {};
+    const storedPlots = run.plots || [];
+    const storedGradePoints = run.gradePoints || null;
+
     const artifactsRel = normalizeForStatic(run.artifactsDir);
-    const plots = (run.plots || []).map((plotPath) => {
+    const plots = (storedPlots || []).map((plotPath) => {
       const absolutePlot = path.isAbsolute(plotPath)
         ? plotPath
         : path.join(run.artifactsDir, plotPath);
@@ -251,9 +280,9 @@ export default function modelRoutes(prisma) {
 
     res.json({
       hasModel: true,
-      metrics: run.metrics || {},
+      metrics: runMetrics,
       plots,
-      gradePoints: run.gradePoints || run.config?.GRADE_POINTS,
+      gradePoints: storedGradePoints || runConfig?.GRADE_POINTS,
       bestModel: run.bestModel || null,
       trainedAt: run.finishedAt,
       artifactsDir: `/static/${artifactsRel}`
@@ -266,7 +295,7 @@ export default function modelRoutes(prisma) {
       orderBy: { createdAt: 'desc' },
       take: 20
     });
-    res.json({ items: runs });
+    res.json({ items: runs.map(hydrateRun) });
   });
 
   return router;

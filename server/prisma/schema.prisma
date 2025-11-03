@@ -1,4 +1,6 @@
-generator client { provider = "prisma-client-js" }
+generator client {
+  provider = "prisma-client-js"
+}
 
 datasource db {
   provider = "sqlite"
@@ -35,11 +37,11 @@ model ModelRun {
   orgId        String
   org          Organization   @relation(fields: [orgId], references: [id])
   status       ModelRunStatus @default(PENDING)
-  config       Json
-  metrics      Json?
+  config       String         @db.Text
+  metrics      String?        @db.Text
   artifactsDir String
-  plots        Json[]
-  gradePoints  Json?
+  plots        String?        @db.Text
+  gradePoints  String?        @db.Text
   bestModel    String?
   createdAt    DateTime       @default(now())
   finishedAt   DateTime?
@@ -54,10 +56,10 @@ model Prediction {
   org        Organization @relation(fields: [orgId], references: [id])
   studentId  String
   inputPath  String
-  results    Json
+  results    String        @db.Text
   outFile    String
-  summary    Json?
-  createdAt  DateTime @default(now())
+  summary    String?       @db.Text
+  createdAt  DateTime      @default(now())
 
   @@index([orgId, createdAt(sort: Desc)])
 }
