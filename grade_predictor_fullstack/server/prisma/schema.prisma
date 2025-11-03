@@ -1,0 +1,47 @@
+generator client { provider = "prisma-client-js" }
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  users     User[]
+  modelRuns ModelRun[]
+  preds     Prediction[]
+  createdAt DateTime @default(now())
+}
+
+model User {
+  id           String   @id @default(cuid())
+  orgId        String
+  org          Organization @relation(fields: [orgId], references: [id])
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+model ModelRun {
+  id           String   @id @default(cuid())
+  orgId        String
+  org          Organization @relation(fields: [orgId], references: [id])
+  status       String   // PENDING|RUNNING|SUCCEEDED|FAILED
+  config       Json
+  metrics      Json?
+  artifactsDir String?
+  plots        Json?
+  createdAt    DateTime @default(now())
+  finishedAt   DateTime?
+}
+
+model Prediction {
+  id         String   @id @default(cuid())
+  orgId      String
+  org        Organization @relation(fields: [orgId], references: [id])
+  studentId  String
+  inputPath  String
+  results    Json
+  createdAt  DateTime @default(now())
+}
